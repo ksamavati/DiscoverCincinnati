@@ -1,0 +1,843 @@
+[
+	{
+		"id": "QMdo-3QBkEr3evb3PhJOLw",
+		"alias": "rhinegeist-brewery-cincinnati",
+		"name": "Rhinegeist Brewery",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8nItv_RURCCl45zDjtAH3g/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/rhinegeist-brewery-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 680,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11730195663258,
+			"longitude": -84.52028207890814
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "1910 Elm St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1910 Elm St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15133811356",
+		"display_phone": "(513) 381-1356",
+		"distance": 1559.9905921554594
+	},
+	{
+		"id": "6usyeoEd-mdxMsk_mHSupw",
+		"alias": "highgrain-brewing-cincinnati",
+		"name": "HighGrain Brewing",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6OpMimwnpBwy3_ZDQDd1gw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/highgrain-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 140,
+		"categories": [
+			{
+				"alias": "newamerican",
+				"title": "American (New)"
+			},
+			{
+				"alias": "brewpubs",
+				"title": "Brewpubs"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.19321,
+			"longitude": -84.40039
+		},
+		"transactions": [
+			"delivery",
+			"pickup"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "6860 Plainfield Rd",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45236",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"6860 Plainfield Rd",
+				"Cincinnati, OH 45236"
+			]
+		},
+		"phone": "+15137917000",
+		"display_phone": "(513) 791-7000",
+		"distance": 11773.149044587943
+	},
+	{
+		"id": "aeNlmuqx9tws1OKbe5rX-A",
+		"alias": "tafts-ale-house-cincinnati",
+		"name": "Taft's Ale House",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/tolQEd7e6F1bQmRXtYF_LQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/tafts-ale-house-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 1119,
+		"categories": [
+			{
+				"alias": "newamerican",
+				"title": "American (New)"
+			},
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "pubs",
+				"title": "Pubs"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11135,
+			"longitude": -84.51752
+		},
+		"transactions": [
+			"pickup",
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "1429 Race St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1429 Race St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15133341393",
+		"display_phone": "(513) 334-1393",
+		"distance": 1942.677799008138
+	},
+	{
+		"id": "zP-ky0PBn8ZLZhk1aNKe8w",
+		"alias": "northern-row-brewery-and-distillery-cincinnati-3",
+		"name": "Northern Row Brewery & Distillery",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rnemF5PEof76SLmMDn4v4w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/northern-row-brewery-and-distillery-cincinnati-3?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 40,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11814258,
+			"longitude": -84.519613
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "111 W McMicken Ave",
+			"address2": null,
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"111 W McMicken Ave",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136208302",
+		"display_phone": "(513) 620-8302",
+		"distance": 1454.8940982441268
+	},
+	{
+		"id": "DlpknRqKfvvYL6AHoEsTPQ",
+		"alias": "madtree-brewing-cincinnati-3",
+		"name": "MadTree Brewing",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HLTO5eBYuPYtIDMvosKtug/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/madtree-brewing-cincinnati-3?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 537,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "pizza",
+				"title": "Pizza"
+			},
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.15598,
+			"longitude": -84.42482
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "3301 Madison Rd",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45209",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3301 Madison Rd",
+				"Cincinnati, OH 45209"
+			]
+		},
+		"phone": "+15138368733",
+		"display_phone": "(513) 836-8733",
+		"distance": 7902.059131456536
+	},
+	{
+		"id": "pNq6duEf2TIhrhKWMonXDg",
+		"alias": "brewdog-cincinnati-cincinnati",
+		"name": "BrewDog Cincinnati",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/crZJ8YPlUdckqj_el2HBUA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/brewdog-cincinnati-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 135,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.108714,
+			"longitude": -84.509047
+		},
+		"transactions": [
+			"delivery",
+			"pickup"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "316 Reading Rd",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"316 Reading Rd",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134575287",
+		"display_phone": "(513) 457-5287",
+		"distance": 2007.5314145592172
+	},
+	{
+		"id": "VdpLKRfXPISkPy6bgyxNvg",
+		"alias": "esoteric-brewing-cincinnati-2",
+		"name": "Esoteric Brewing",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tITQ_YRnOrX61VefaIeZhQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/esoteric-brewing-cincinnati-2?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 53,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1260299448041,
+			"longitude": -84.489722
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "918 E McMillan",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45206",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"918 E McMillan",
+				"Cincinnati, OH 45206"
+			]
+		},
+		"phone": "+15132141987",
+		"display_phone": "(513) 214-1987",
+		"distance": 1478.0344306063976
+	},
+	{
+		"id": "HE1yDEmufFx9YsoEabaQhQ",
+		"alias": "urban-artifact-cincinnati",
+		"name": "Urban Artifact",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HiBxhETkEUVWE93oPvymgw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/urban-artifact-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 154,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1606574081745,
+			"longitude": -84.5420780182815
+		},
+		"transactions": [],
+		"price": "$",
+		"location": {
+			"address1": "1660 Blue Rock St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45223",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1660 Blue Rock St",
+				"Cincinnati, OH 45223"
+			]
+		},
+		"phone": "+15135424222",
+		"display_phone": "(513) 542-4222",
+		"distance": 4848.558730554369
+	},
+	{
+		"id": "IdX1Wn_YrV6-03Bxifr4gg",
+		"alias": "brink-brewing-cincinnati",
+		"name": "Brink Brewing",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_BD4oaRt7TfQht-oXCP-Dw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/brink-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 91,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.199,
+			"longitude": -84.54711
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "5905 Hamilton Ave",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45224",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"5905 Hamilton Ave",
+				"Cincinnati, OH 45224"
+			]
+		},
+		"phone": "+15138823334",
+		"display_phone": "(513) 882-3334",
+		"distance": 8758.966175548105
+	},
+	{
+		"id": "bxFUlXSXnIfrUl2YSdx1-Q",
+		"alias": "fibonacci-brewing-cincinnati",
+		"name": "Fibonacci Brewing",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/jeTuF_OQIhKsrzqHqOV5sg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fibonacci-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 47,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.23121,
+			"longitude": -84.54097
+		},
+		"transactions": [],
+		"price": "$",
+		"location": {
+			"address1": "1445 Compton Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45231",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1445 Compton Rd",
+				"Cincinnati, OH 45231"
+			]
+		},
+		"phone": "+15138321422",
+		"display_phone": "(513) 832-1422",
+		"distance": 12018.147966141505
+	},
+	{
+		"id": "p9JJg1QUZet7s-GDje-YHQ",
+		"alias": "woodburn-brewing-cincinnati",
+		"name": "Woodburn Brewing",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/sJ43Y-ZTmaZ0AE1MASN7Hw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/woodburn-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 164,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "burgers",
+				"title": "Burgers"
+			},
+			{
+				"alias": "sandwiches",
+				"title": "Sandwiches"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.128974,
+			"longitude": -84.476831
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "2800 Woodburn Ave",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45206",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2800 Woodburn Ave",
+				"Cincinnati, OH 45206"
+			]
+		},
+		"phone": "+15132212041",
+		"display_phone": "(513) 221-2041",
+		"distance": 2602.0743357645306
+	},
+	{
+		"id": "MmGW5ueNLuAdXn70Vxi-MA",
+		"alias": "dead-low-brewing-cincinnati",
+		"name": "Dead Low Brewing",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Rs9-3mOLI2e9gM6A9xYwdA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/dead-low-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 113,
+		"categories": [
+			{
+				"alias": "brewpubs",
+				"title": "Brewpubs"
+			},
+			{
+				"alias": "tradamerican",
+				"title": "American (Traditional)"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.0635416,
+			"longitude": -84.4229886
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "5959 Kellogg Ave",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45230",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"5959 Kellogg Ave",
+				"Cincinnati, OH 45230"
+			]
+		},
+		"phone": "+15138001231",
+		"display_phone": "(513) 800-1231",
+		"distance": 10063.698134331355
+	},
+	{
+		"id": "SB6hPiELoGQHuHUU9oL5Tg",
+		"alias": "third-eye-brewing-company-sharonville",
+		"name": "Third Eye Brewing Company",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/6EXDSOp0nQXnzY35vvnDpA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/third-eye-brewing-company-sharonville?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 104,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "newamerican",
+				"title": "American (New)"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.278148,
+			"longitude": -84.44327792052233
+		},
+		"transactions": [],
+		"location": {
+			"address1": "11276 Chester Rd",
+			"address2": null,
+			"address3": "",
+			"city": "Sharonville",
+			"zip_code": "45246",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"11276 Chester Rd",
+				"Sharonville, OH 45246"
+			]
+		},
+		"phone": "+15137712739",
+		"display_phone": "(513) 771-2739",
+		"distance": 17710.163108445427
+	},
+	{
+		"id": "ZoNO9SKrmaKffCZnPGQ7lg",
+		"alias": "nine-giant-brewing-cincinnati",
+		"name": "Nine Giant Brewing",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-WesilkgyRE623Vi7UbtWQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/nine-giant-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 306,
+		"categories": [
+			{
+				"alias": "gastropubs",
+				"title": "Gastropubs"
+			},
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1822579,
+			"longitude": -84.42767817054454
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "6095 Montgomery Rd",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45213",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"6095 Montgomery Rd",
+				"Cincinnati, OH 45213"
+			]
+		},
+		"phone": "+15133664550",
+		"display_phone": "(513) 366-4550",
+		"distance": 9207.297735739567
+	},
+	{
+		"id": "FMhuxvy8TV_1WneruZ1d_g",
+		"alias": "fifty-west-brewing-company-cincinnati",
+		"name": "Fifty West Brewing Company",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/J614F_jzWZcQrFd0ac6-3w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fifty-west-brewing-company-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 466,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "newamerican",
+				"title": "American (New)"
+			},
+			{
+				"alias": "beerbar",
+				"title": "Beer Bar"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.13947,
+			"longitude": -84.35381
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "7668 Wooster Pike",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45227",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"7668 Wooster Pike",
+				"Cincinnati, OH 45227"
+			]
+		},
+		"phone": "+15138348789",
+		"display_phone": "(513) 834-8789",
+		"distance": 13271.494939474152
+	},
+	{
+		"id": "3BI-Gio9kozhjCBTUpDNVA",
+		"alias": "tafts-brewpourium-cincinnati",
+		"name": "Taft's Brewpourium",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/a-BbMqnzIYosHJ6DkQcN0g/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/tafts-brewpourium-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 119,
+		"categories": [
+			{
+				"alias": "pizza",
+				"title": "Pizza"
+			},
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.168322,
+			"longitude": -84.512135
+		},
+		"transactions": [
+			"delivery",
+			"pickup"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "4831 Spring Grove Ave",
+			"address2": "Ste 1",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45232",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"4831 Spring Grove Ave",
+				"Ste 1",
+				"Cincinnati, OH 45232"
+			]
+		},
+		"phone": "+15138535021",
+		"display_phone": "(513) 853-5021",
+		"distance": 4652.530235600826
+	},
+	{
+		"id": "kxrVgXS8r_JwU5J7F21TGw",
+		"alias": "braxton-brewing-company-covington",
+		"name": "Braxton Brewing Company",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/X8PZHucus9wI6gP9ePwtQQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/braxton-brewing-company-covington?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 275,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			},
+			{
+				"alias": "bars",
+				"title": "Bars"
+			},
+			{
+				"alias": "eventservices",
+				"title": "Event Planning & Services"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.0830765,
+			"longitude": -84.5112991
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "27 W 7th St",
+			"address2": null,
+			"address3": "",
+			"city": "Covington",
+			"zip_code": "41011",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"27 W 7th St",
+				"Covington, KY 41011"
+			]
+		},
+		"phone": "+18592615600",
+		"display_phone": "(859) 261-5600",
+		"distance": 4883.186288676201
+	},
+	{
+		"id": "VEvBfHLv582xO6vMLz7uOg",
+		"alias": "west-side-brewing-cincinnati",
+		"name": "West Side Brewing",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/v0ZVrOIjJvK6VgZsXN39ZA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/west-side-brewing-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 94,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.14962,
+			"longitude": -84.5988
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "3044 Harrison Ave",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45211",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3044 Harrison Ave",
+				"Cincinnati, OH 45211"
+			]
+		},
+		"phone": "+15136612337",
+		"display_phone": "(513) 661-2337",
+		"distance": 8327.438786059703
+	},
+	{
+		"id": "_rDunMzZMyj1kS1lWzMxvQ",
+		"alias": "braxton-brewing-cincinnati-cincinnati",
+		"name": "Braxton Brewing - Cincinnati",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/CorQhzp8v2RC_SGpajGy3w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/braxton-brewing-cincinnati-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 19,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.11018864824629,
+			"longitude": -84.50858484791092
+		},
+		"transactions": [],
+		"location": {
+			"address1": "331 E 13th St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"331 E 13th St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15139184804",
+		"display_phone": "(513) 918-4804",
+		"distance": 1840.2869028197606
+	},
+	{
+		"id": "I0Kf05PoA4ST1p7YQQxtHw",
+		"alias": "wooden-cask-brewing-company-newport-5",
+		"name": "Wooden Cask Brewing Company",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/62vyWztvzKI-QcKHmDM9NA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/wooden-cask-brewing-company-newport-5?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 79,
+		"categories": [
+			{
+				"alias": "breweries",
+				"title": "Breweries"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.09012,
+			"longitude": -84.49406
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "629 York St",
+			"address2": "",
+			"address3": null,
+			"city": "Newport",
+			"zip_code": "41071",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"629 York St",
+				"Newport, KY 41071"
+			]
+		},
+		"phone": "+18592612172",
+		"display_phone": "(859) 261-2172",
+		"distance": 4216.957987859418
+	}
+]

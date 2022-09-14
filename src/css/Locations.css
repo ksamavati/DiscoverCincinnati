@@ -1,0 +1,83 @@
+.locations-row {
+
+	background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(62, 65, 63, 0.7)), url(https://law.uc.edu/about/cincinnati/_jcr_content/main/image_1397836161.img.jpeg/1592243478892/river-and-skyline-view.jpeg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 100vh;
+	/*parent container*/
+	width: 100%;
+	color: white;
+	padding-bottom: 100px;
+
+	background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(62, 65, 63, 0.7)), url(http://tile.loc.gov/image-services/iiif/service:pnp:highsm:41900:41943/full/pct:25/0/default.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	min-height: 100vh;
+	/*parent container*/
+	width: 100%;
+	color: white;
+	padding-bottom: 100px;
+
+}
+
+.para-cols {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.card {
+	overflow: hidden;
+	box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+	background: red;
+
+
+}
+
+.card-text {
+	color: black;
+	-webkit-line-clamp: 5;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+
+.card-title {
+	color: red;
+}
+
+/* .card-img-top {
+	transition: all 1.5s ease;
+	height: 30vh;
+} */
+
+/* .card:hover .card-img-top {
+	transform: scale(1.5);
+} */
+
+.carousel-item {
+	height: 50vh;
+	overflow: hidden;
+}
+
+.my-car-img {
+	transform: translateY(-26%);
+	filter: brightness(55%);
+	min-width: 100%;
+	min-height: 135%;
+	object-fit: cover;
+}
+
+.my-car-caption {
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

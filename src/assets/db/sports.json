@@ -1,0 +1,465 @@
+[
+	{
+		"id": "fXfOE1_8kK0BlzPHWUVRUQ",
+		"alias": "great-american-ball-park-cincinnati",
+		"name": "Great American Ball Park",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IuEAe2Bkqu6sSRJWMM6sAQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/great-american-ball-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 431,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			},
+			{
+				"alias": "baseballfields",
+				"title": "Baseball Fields"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.09794,
+			"longitude": -84.508183
+		},
+		"transactions": [],
+		"location": {
+			"address1": "100 Joe Nuxhall Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"100 Joe Nuxhall Way",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15137657000",
+		"display_phone": "(513) 765-7000",
+		"distance": 3198.1899547239314
+	},
+	{
+		"id": "iEbqIKQAOFnA1YwKsYKH4w",
+		"alias": "paycor-stadium-cincinnati-2",
+		"name": "Paycor Stadium",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CVW83EOcECgPNyqX83IUvg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/paycor-stadium-cincinnati-2?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 123,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.0961367636919,
+			"longitude": -84.5176700502634
+		},
+		"transactions": [],
+		"location": {
+			"address1": "One Paul Brown Stadium",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"One Paul Brown Stadium",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134554800",
+		"display_phone": "(513) 455-4800",
+		"distance": 3561.37925309039
+	},
+	{
+		"id": "0vIZXmme5nqwTO2v4a56GQ",
+		"alias": "cintas-center-cincinnati",
+		"name": "Cintas Center",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/6apuaf3hnhlwG4cQ54R3ug/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cintas-center-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 34,
+		"categories": [
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			},
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1502698622075,
+			"longitude": -84.4717946349182
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1624 Herald Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45207",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1624 Herald Ave",
+				"Cincinnati, OH 45207"
+			]
+		},
+		"phone": "+15137453428",
+		"display_phone": "(513) 745-3428",
+		"distance": 4001.509301830319
+	},
+	{
+		"id": "Gp-3CXLBO0tjnPoX_ZeYgw",
+		"alias": "nippert-stadium-cincinnati",
+		"name": "Nippert Stadium",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/xzq9kcqWKJp3KJ9gAJsSQQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/nippert-stadium-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 37,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1312170634044,
+			"longitude": -84.5161861181259
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2700 Bearcats Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45221",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2700 Bearcats Way",
+				"Cincinnati, OH 45221"
+			]
+		},
+		"phone": "+15135565191",
+		"display_phone": "(513) 556-5191",
+		"distance": 951.1291388622034
+	},
+	{
+		"id": "AK3gNMe6nCI0_puqTWnHVw",
+		"alias": "heritage-bank-center-cincinnati",
+		"name": "Heritage Bank Center",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LflG1LYra4xQ06H7Let27Q/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/heritage-bank-center-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 102,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			},
+			{
+				"alias": "musicvenues",
+				"title": "Music Venues"
+			}
+		],
+		"rating": 2.5,
+		"coordinates": {
+			"latitude": 39.0979232788086,
+			"longitude": -84.5040817260742
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "100 Broadway",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"100 Broadway",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134214111",
+		"display_phone": "(513) 421-4111",
+		"distance": 3189.055002483056
+	},
+	{
+		"id": "cOyfggJzOh38GophgNz_xw",
+		"alias": "tql-stadium-cincinnati",
+		"name": "TQL Stadium",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fb9-Zr5bdgKSEGErvdsuqA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/tql-stadium-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 15,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11145263823885,
+			"longitude": -84.52082557942431
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1501 Central Pkwy",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1501 Central Pkwy",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15139775425",
+		"display_phone": "(513) 977-5425",
+		"distance": 2079.5735951003426
+	},
+	{
+		"id": "71kx2UbbaNfcRrW8N1X64w",
+		"alias": "fifth-third-arena-cincinnati",
+		"name": "Fifth Third Arena",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/aICuChGwf1_It4VeJGuZ3A/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fifth-third-arena-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 19,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.1306915283203,
+			"longitude": -84.5149917602539
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2700 O'Varsity Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45221",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2700 O'Varsity Way",
+				"Cincinnati, OH 45221"
+			]
+		},
+		"phone": "+15135565191",
+		"display_phone": "(513) 556-5191",
+		"distance": 800.9197261070117
+	},
+	{
+		"id": "51hnrE54NHWraSffVuNIxA",
+		"alias": "richard-e-lindner-varsity-village-cincinnati",
+		"name": "Richard E. Lindner Varsity Village",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mxE9OGtkhj1WIXexB_aIMQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/richard-e-lindner-varsity-village-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 2,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.131219,
+			"longitude": -84.514986
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2751 O'Varsity Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45221",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2751 O'Varsity Way",
+				"Cincinnati, OH 45221"
+			]
+		},
+		"phone": "+15135565191",
+		"display_phone": "(513) 556-5191",
+		"distance": 865.2173164636524
+	},
+	{
+		"id": "uZQGkNHIg_2lpKyOTODyrA",
+		"alias": "river-downs-cincinnati",
+		"name": "River Downs",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/F1uCFF8QqK0P5xx-nIZDhg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/river-downs-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 4,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.0534515,
+			"longitude": -84.4127502
+		},
+		"transactions": [],
+		"location": {
+			"address1": "6301 Kellogg Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45230",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"6301 Kellogg Rd",
+				"Cincinnati, OH 45230"
+			]
+		},
+		"phone": "+15132328000",
+		"display_phone": "(513) 232-8000",
+		"distance": 11628.72238628465
+	},
+	{
+		"id": "n6YaH8mAO43uorDs952ZMQ",
+		"alias": "gettler-stadium-cincinnati",
+		"name": "Gettler Stadium",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8X9uk7Z-RS9oAhuFvd1NCw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/gettler-stadium-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 1,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.129198,
+			"longitude": -84.515466
+		},
+		"transactions": [],
+		"location": {
+			"address1": "W Corry St & Dennis St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45219",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"W Corry St & Dennis St",
+				"Cincinnati, OH 45219"
+			]
+		},
+		"phone": "+18772287849",
+		"display_phone": "(877) 228-7849",
+		"distance": 795.207243472242
+	},
+	{
+		"id": "kh0UpITppkULuSmJsvehGQ",
+		"alias": "uc-baseball-stadium-cincinnati",
+		"name": "UC Baseball Stadium",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/F-KNHRUholJLONma0krXTQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/uc-baseball-stadium-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 1,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1293385,
+			"longitude": -84.5130485
+		},
+		"transactions": [],
+		"location": {
+			"address1": "99 W Corry St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45219",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"99 W Corry St",
+				"Cincinnati, OH 45219"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 611.847105907048
+	},
+	{
+		"id": "nn55ET0xp4cT3x_gXDKjoQ",
+		"alias": "bb-and-t-arena-highland-heights",
+		"name": "BB&T Arena",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ykx9uEIIL4YR1Ytr_aDMEw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/bb-and-t-arena-highland-heights?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 12,
+		"categories": [
+			{
+				"alias": "stadiumsarenas",
+				"title": "Stadiums & Arenas"
+			},
+			{
+				"alias": "musicvenues",
+				"title": "Music Venues"
+			}
+		],
+		"rating": 3.0,
+		"coordinates": {
+			"latitude": 39.0350911,
+			"longitude": -84.4540484
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "500 Nunn Dr",
+			"address2": "",
+			"address3": "Northern Kentucky University",
+			"city": "Highland Heights",
+			"zip_code": "41099",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"500 Nunn Dr",
+				"Northern Kentucky University",
+				"Highland Heights, KY 41099"
+			]
+		},
+		"phone": "+18594422652",
+		"display_phone": "(859) 442-2652",
+		"distance": 11157.317966378938
+	}
+]

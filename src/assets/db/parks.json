@@ -1,0 +1,814 @@
+[
+	{
+		"id": "X82tC7AjNpG8OJNpKTjh5A",
+		"alias": "smale-riverfront-park-cincinnati",
+		"name": "Smale Riverfront Park",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/K8n721yy_4Uv2GcpdcKbeg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/smale-riverfront-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 125,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 5.0,
+		"coordinates": {
+			"latitude": 39.09394,
+			"longitude": -84.51693
+		},
+		"transactions": [],
+		"location": {
+			"address1": "W Mehring Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"W Mehring Way",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132411774",
+		"display_phone": "(513) 241-1774",
+		"distance": 3726.8757404680673,
+		"description": "This 40-acre park offers breathtaking views of the Ohio River and the Cincinnati skyline. Visitors can stroll along the park's paths, relax on one of the many benches, or take a ride on the park's carousel. The park also features a playground, a fountain, and a café."
+	},
+	{
+		"id": "hABMMh6YQVp7M0yNwYyxuw",
+		"alias": "ault-park-cincinnati",
+		"name": "Ault Park",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Y4YXTZjetkNwJcU3bB6cSg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/ault-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 102,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1386370360851,
+			"longitude": -84.4160304218531
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3600 Observatory Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45208",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3600 Observatory Ave",
+				"Cincinnati, OH 45208"
+			]
+		},
+		"phone": "+15133572619",
+		"display_phone": "(513) 357-2619",
+		"distance": 7935.786051269334,
+		"description": "Ault Park is a beautiful 300-acre park that features a variety of amenities, including a playground, a pavilion, hiking trails, and a dog park. The park also hosts a variety of events throughout the year, such as the Cincinnati Flower Show and the Ault Park Concours d'Elegance."
+	},
+	{
+		"id": "WGcx--JF0h0AH_ZzqVTFXA",
+		"alias": "devou-park-city-of-covington-parks-and-recreation-covington",
+		"name": "Devou Park - City of Covington Parks and Recreation",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DsQl5Gmw_-OcSEQCAuuf5Q/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/devou-park-city-of-covington-parks-and-recreation-covington?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 66,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.082167304863546,
+			"longitude": -84.52725428236076
+		},
+		"transactions": [],
+		"location": {
+			"address1": "790 Park Ln",
+			"address2": "",
+			"address3": "",
+			"city": "Covington",
+			"zip_code": "41011",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"790 Park Ln",
+				"Covington, KY 41011"
+			]
+		},
+		"phone": "+18592922151",
+		"display_phone": "(859) 292-2151",
+		"distance": 5254.11897379931,
+		"description": "Devou Park is a 722-acre park located in the hills of Northern Kentucky. The park offers a variety of activities, including hiking, biking, picnicking, and fishing. The park also features a golf course, a disc golf course, and a playground."
+	},
+	{
+		"id": "8zfx-A1gvJbbbXNYHbh9aQ",
+		"alias": "washington-park-cincinnati",
+		"name": "Washington Park",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/IMs9WzamKYi3lPjrz7MDIA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/washington-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 184,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1094803821762,
+			"longitude": -84.5175473312134
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1230 Elm St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1230 Elm St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136214400",
+		"display_phone": "(513) 621-4400",
+		"distance": 2124.357892368122,
+		"description": "Washington Park is a 12-acre park located in the heart of downtown Cincinnati. The park features a playground, a sprayground, a dog park, and a variety of events throughout the year, such as concerts and festivals."
+	},
+	{
+		"id": "lq4tXDHBgiDJf9RIs7qc_w",
+		"alias": "pleasant-ridge-recreation-center-cincinnati",
+		"name": "Pleasant Ridge Recreation Center",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Kr66tVsA_DVln9nB-aixDg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/pleasant-ridge-recreation-center-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 3,
+		"categories": [
+			{
+				"alias": "recreation",
+				"title": "Recreation Centers"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1790402205513,
+			"longitude": -84.4283845214668
+		},
+		"transactions": [],
+		"location": {
+			"address1": "5919 Ridge Rd",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45213",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"5919 Ridge Rd",
+				"Cincinnati, OH 45213"
+			]
+		},
+		"phone": "+15137317894",
+		"display_phone": "(513) 731-7894",
+		"distance": 8924.94940245349,
+		"description": ""
+	},
+	{
+		"id": "nx1bWJPSeZ49-BM79SYIIw",
+		"alias": "blue-ash-nature-park-blue-ash",
+		"name": "Blue Ash Nature Park",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8a2_1OHH2W5Kk1CGTmN9dQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/blue-ash-nature-park-blue-ash?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 6,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.237015,
+			"longitude": -84.38725
+		},
+		"transactions": [],
+		"location": {
+			"address1": "4433 Cooper Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Blue Ash",
+			"zip_code": "45242",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"4433 Cooper Rd",
+				"Blue Ash, OH 45242"
+			]
+		},
+		"phone": "+15136861270",
+		"display_phone": "(513) 686-1270",
+		"distance": 16023.535181330893,
+		"description": ""
+	},
+	{
+		"id": "kc9s1Yw6urwcl8RQeLseQw",
+		"alias": "fido-field-cincinnati",
+		"name": "Fido Field",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UHhtilDtTegozFuJBuP9iA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fido-field-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 19,
+		"categories": [
+			{
+				"alias": "dog_parks",
+				"title": "Dog Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1052401810884,
+			"longitude": -84.5043428242207
+		},
+		"transactions": [],
+		"location": {
+			"address1": "630 Eggleston Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"630 Eggleston Ave",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 2390.5215716560406,
+		"description": ""
+	},
+	{
+		"id": "ZR_10wVlQ2RmihiaPEKJtw",
+		"alias": "winton-woods-cincinnati",
+		"name": "Winton Woods",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/h8ly-DaRqpKM7bprvnEjtA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/winton-woods-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 45,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.256678,
+			"longitude": -84.5177658
+		},
+		"transactions": [],
+		"location": {
+			"address1": "10245 Winton Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45231",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"10245 Winton Rd",
+				"Cincinnati, OH 45231"
+			]
+		},
+		"phone": "+15135217275",
+		"display_phone": "(513) 521-7275",
+		"distance": 14517.253729267859,
+		"description": ""
+	},
+	{
+		"id": "EmF03Elr8epb26_Fhtrekg",
+		"alias": "big-bone-lick-state-historic-site-union",
+		"name": "Big Bone Lick State Historic Site",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bODN0vSrkXp0D94a1qnECw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/big-bone-lick-state-historic-site-union?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 43,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "campgrounds",
+				"title": "Campgrounds"
+			},
+			{
+				"alias": "museums",
+				"title": "Museums"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 38.88886451430639,
+			"longitude": -84.74761392787889
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3380 Beaver Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Union",
+			"zip_code": "41091",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"3380 Beaver Rd",
+				"Union, KY 41091"
+			]
+		},
+		"phone": "+18593843522",
+		"display_phone": "(859) 384-3522",
+		"distance": 33646.95804362105,
+		"description": ""
+	},
+	{
+		"id": "VW56_ZqQChOiEeOQELdkmg",
+		"alias": "five-mile-trail-cincinnati",
+		"name": "Five Mile Trail",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9e7dfjiAhOYqeJrcW2nQgw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/five-mile-trail-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 5,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.10677,
+			"longitude": -84.36671
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2710 Newtown Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45244",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2710 Newtown Rd",
+				"Cincinnati, OH 45244"
+			]
+		},
+		"phone": "+15136888400",
+		"display_phone": "(513) 688-8400",
+		"distance": 12350.547356546836,
+		"description": ""
+	},
+	{
+		"id": "2vdcwUF_z0l4VPn_nz1izw",
+		"alias": "woodland-mound-cincinnati",
+		"name": "Woodland Mound",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/x9274ZIowWl1h7xjT3-3FA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/woodland-mound-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 33,
+		"categories": [
+			{
+				"alias": "hiking",
+				"title": "Hiking"
+			},
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "playgrounds",
+				"title": "Playgrounds"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.0337852,
+			"longitude": -84.3310899
+		},
+		"transactions": [],
+		"location": {
+			"address1": "8250 Old Kellogg Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45255",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"8250 Old Kellogg Rd",
+				"Cincinnati, OH 45255"
+			]
+		},
+		"phone": "+15135217275",
+		"display_phone": "(513) 521-7275",
+		"distance": 18304.77137197523,
+		"description": ""
+	},
+	{
+		"id": "cWsbouKIb7ZmzXHBq-Z1QQ",
+		"alias": "bicentennial-park-cincinnati",
+		"name": "Bicentennial Park",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Vz2tNO_RusRSTsVtEBo3gQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/bicentennial-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 3,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "playgrounds",
+				"title": "Playgrounds"
+			}
+		],
+		"rating": 5.0,
+		"coordinates": {
+			"latitude": 39.1680009620642,
+			"longitude": -84.5862169576863
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2885 Diehl Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45211",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2885 Diehl Rd",
+				"Cincinnati, OH 45211"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 8244.21190542411,
+		"description": ""
+	},
+	{
+		"id": "btnv_Ax9f_H-wPPDWwfpTA",
+		"alias": "boone-county-arboretum-union",
+		"name": "Boone County Arboretum",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/JXl08bnpgZ7DYIsEy7ZXJQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/boone-county-arboretum-union?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 19,
+		"categories": [
+			{
+				"alias": "hiking",
+				"title": "Hiking"
+			},
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 38.96441216436105,
+			"longitude": -84.7233
+		},
+		"transactions": [],
+		"location": {
+			"address1": "9190 Camp Ernst Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Union",
+			"zip_code": "41091",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"9190 Camp Ernst Rd",
+				"Union, KY 41091"
+			]
+		},
+		"phone": "+18593844999",
+		"display_phone": "(859) 384-4999",
+		"distance": 25981.23175297823,
+		"description": ""
+	},
+	{
+		"id": "dc_TzllBIrOz90OH9NjBAA",
+		"alias": "fort-thomas-tower-park-fort-thomas",
+		"name": "Fort Thomas Tower Park",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/hQqX4s7AqeBKDNDrverGTA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fort-thomas-tower-park-fort-thomas?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 22,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "playgrounds",
+				"title": "Playgrounds"
+			},
+			{
+				"alias": "hiking",
+				"title": "Hiking"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.06595,
+			"longitude": -84.4459399
+		},
+		"transactions": [],
+		"location": {
+			"address1": "950 S Fort Thomas Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Fort Thomas",
+			"zip_code": "41075",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"950 S Fort Thomas Ave",
+				"Fort Thomas, KY 41075"
+			]
+		},
+		"phone": "+18594414226",
+		"display_phone": "(859) 441-4226",
+		"distance": 8563.107054188667,
+		"description": ""
+	},
+	{
+		"id": "yCG5AgRq-Ggn3sVzhl-JpA",
+		"alias": "withrow-nature-preserve-cincinnati",
+		"name": "Withrow Nature Preserve",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/3mWqqEaT6iFVwVYam_g8YQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/withrow-nature-preserve-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 19,
+		"categories": [
+			{
+				"alias": "hiking",
+				"title": "Hiking"
+			},
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.050342,
+			"longitude": -84.372919
+		},
+		"transactions": [],
+		"location": {
+			"address1": "7075 Five Mile Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45230",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"7075 Five Mile Rd",
+				"Cincinnati, OH 45230"
+			]
+		},
+		"phone": "+15135217275",
+		"display_phone": "(513) 521-7275",
+		"distance": 14340.263821158695,
+		"description": ""
+	},
+	{
+		"id": "J3cwOtd8_SUIuytSj1DSQQ",
+		"alias": "weller-park-cincinnati",
+		"name": "Weller Park",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/AWFoz2p-j4up6psFAxYHsA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/weller-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 3,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			},
+			{
+				"alias": "tennis",
+				"title": "Tennis"
+			},
+			{
+				"alias": "playgrounds",
+				"title": "Playgrounds"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.264402,
+			"longitude": -84.321268
+		},
+		"transactions": [],
+		"location": {
+			"address1": "Weller Rd Next To Good Shepherd Parish",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45249",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"Weller Rd Next To Good Shepherd Parish",
+				"Cincinnati, OH 45249"
+			]
+		},
+		"phone": "+15137928348",
+		"display_phone": "(513) 792-8348",
+		"distance": 22141.153239907493,
+		"description": ""
+	},
+	{
+		"id": "kBkmDSKkdPpy6tcz_L09jg",
+		"alias": "silverlake-the-family-place-erlanger",
+		"name": "Silverlake \"The Family Place\"",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/bCTeOkNIu4eRGJVMqdtDhg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/silverlake-the-family-place-erlanger?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 24,
+		"categories": [
+			{
+				"alias": "recreation",
+				"title": "Recreation Centers"
+			}
+		],
+		"rating": 3.0,
+		"coordinates": {
+			"latitude": 39.025659,
+			"longitude": -84.596159
+		},
+		"transactions": [],
+		"location": {
+			"address1": "301 Kenton Lands Rd",
+			"address2": null,
+			"address3": "",
+			"city": "Erlanger",
+			"zip_code": "41018",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"301 Kenton Lands Rd",
+				"Erlanger, KY 41018"
+			]
+		},
+		"phone": "+18594267777",
+		"display_phone": "(859) 426-7777",
+		"distance": 13624.972815052295,
+		"description": ""
+	},
+	{
+		"id": "JNEq6ETfufVm-7ktlc7g0g",
+		"alias": "pride-park-taylor-mill",
+		"name": "Pride Park",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/MSzpIiSQ3_B2c8UbmJwb3w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/pride-park-taylor-mill?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 9,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 38.99246,
+			"longitude": -84.4982932
+		},
+		"transactions": [],
+		"location": {
+			"address1": "5614 Taylor Mill Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Taylor Mill",
+			"zip_code": "41015",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"5614 Taylor Mill Rd",
+				"Taylor Mill, KY 41015"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 14943.120399931178,
+		"description": ""
+	},
+	{
+		"id": "8ws2nbamPZyuJYPJugJmFQ",
+		"alias": "robert-j-barth-lake-cold-spring",
+		"name": "Robert J Barth Lake",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/z68g8zWiaNtfTMAcAFhcQw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/robert-j-barth-lake-cold-spring?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 1,
+		"categories": [
+			{
+				"alias": "fishing",
+				"title": "Fishing"
+			},
+			{
+				"alias": "lakes",
+				"title": "Lakes"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.0187088193864,
+			"longitude": -84.4382334128022
+		},
+		"transactions": [],
+		"location": {
+			"address1": "4210 Alexandria Pike",
+			"address2": "",
+			"address3": null,
+			"city": "Cold Spring",
+			"zip_code": "41076",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"4210 Alexandria Pike",
+				"Cold Spring, KY 41076"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 13387.31415661096,
+		"description": ""
+	},
+	{
+		"id": "a9uIri9FTmtKJwib89t5oA",
+		"alias": "otto-armleder-memorial-park-cincinnati",
+		"name": "Otto Armleder Memorial Park",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lVHZw4MdQEghOPs0kMTqLA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/otto-armleder-memorial-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 12,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.123732,
+			"longitude": -84.402595
+		},
+		"transactions": [],
+		"location": {
+			"address1": "5057 Wooster Pike",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45226",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"5057 Wooster Pike",
+				"Cincinnati, OH 45226"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 8997.96099068758,
+		"description": ""
+	}
+]

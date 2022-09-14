@@ -1,0 +1,71 @@
+/* =====fun fact cards  section===== */
+.fun-facts{
+  background-image:linear-gradient(rgba(5, 5, 5, 0.7),rgba(39, 41, 40, 0.7)), url(https://media.istockphoto.com/photos/cincinnati-skyline-aerial-view-with-ohio-river-picture-id1196525665?b=1&k=20&m=1196525665&s=170667a&w=0&h=ASYh1YrpW1yo9uBXXJGOE1i3vave5PRmmoXih4-ixe0=);
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ min-height: 100vh; /*parent container*/ 
+ width: 100%;
+ color: white;
+ padding-bottom: 100px;
+}
+
+
+ .fn-title{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+  font-size: 4rem;
+  text-align: center;
+  color:rgba(9, 228, 13, 0.928);
+  font-family: 'Rubik Maze', cursive;
+
+} 
+
+.fn-card{
+  width: 90%;
+  max-width: 400px;
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+  border: 3px solid transparent;
+
+  backdrop-filter: blur(1rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+
+  border-top-color: rgba(205, 205, 205,0.5);
+  border-left-color: rgba(205, 205, 205,0.5);
+  border-right-color: rgba(205, 205, 205,0.1);
+  border-bottom-color: rgba(205, 205, 205,0.1);
+}
+.fn-card-number{
+  color:rgba(9, 228, 13, 0.928);
+  font-size: 8rem;
+  z-index: -1;
+  position: absolute;
+  top: -1rem;
+  right: 2.5rem;
+  font-family: 'Graduate', cursive;
+  
+}
+
+.fn-card-text{
+  -webkit-line-clamp: 10;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.cb1{
+  background-color: rgba(205, 205, 205,0.1);
+}
+
+.fn-btn{
+  border-radius: 2rem;
+  background: transparent !important;
+  color: aliceblue;
+  transition: 1.5s;
+}
+
+.fn-btn:hover{
+  box-shadow: 0 0.3rem 1rem rgba(9, 228, 13, 0.928);
+}
