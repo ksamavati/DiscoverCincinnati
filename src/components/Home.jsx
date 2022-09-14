@@ -1,10 +1,7 @@
 import React, { useLayoutEffect } from 'react';
 import '../css/Home.css';
-import bgvideo from '../assets/home/landingvideo.mp4';
-// import movie from '../assets/home/videoplayback.mp4';
 import '../css/Home2.css';
 import { Link } from 'react-router-dom';
-// import Button2 from 'react-bootstrap/Button';
 import Card2 from 'react-bootstrap/Card';
  import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, Row, Col, Container} from 'reactstrap';
@@ -18,8 +15,7 @@ const Home = () => {
 	return (
 		<div className="homepage" id="home-top">
 		  <section className="my-video-container home-section" id="section1">
-      {/* <video className="my-fullscreen-video my-background" src={movie} muted loop autoPlay></video> */}
-    		<video className="my-fullscreen-video my-background" src="./assets/video/homeLanding.mp4" alt="drone footage of Downtown Cincinnati" muted loop autoPlay></video>
+    		<video className="my-fullscreen-video my-background" src="/assets/videos/homeLanding.mp4" alt="drone footage of Downtown Cincinnati" muted loop autoPlay></video>
 				<h1 className="text-white my-tagline">Welcome to Cincinnati
 			  </h1>
   		</section>
@@ -72,45 +68,6 @@ const Home = () => {
 
       </div>
     </section>
-
-      {/* <!-- ======= About Section ======= --> */}
-    <section id="about" className="about home-section">
-      <div className="container" data-aos="fade-up">
-
-        <div className="row">
-          <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/cincyhistory.jpg" className="img-fluid" alt="Cincinnati Union Terminal" />
-          </div>
-          <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>A City Full of History</h3>
-            <p>Cincinnati was founded in 1788 by Colonel Robert Patterson and Judge John Cleves Symmes. They named the city "Cincinnati" after the Society of the Cincinnati, of which they were members.</p>
-
-						<p>Cincinnati was the first major city founded after the American Revolution, and because of this, it is sometimes called "The Birthplace of the West."</p>
-
-						<p>Cincinnati grew rapidly in its early years, and by the 1830s it was the sixth-largest city in the United States. It was a major stop on the Underground Railroad, and its population was very diverse for its time.</p>
-
-						<p>Cincinnati was a major manufacturing city during the Industrial Revolution, and it remained an important manufacturing center even after the decline of industry in the mid-20th century. Today, the city is known for its arts and culture scene, as well as its food (Cincinnati chili is a popular dish).</p>
-            {/* <p className="fst-italic">
-              What, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul> */}
-            {/* <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            </p> */}
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-		{/* <!-- End About Section --> */}
-
-    {/* <!-- ======= Counts Section ======= --> */}
     <section id="counts" className="counts section-bg home-section">
       <div className="container">
 
@@ -140,7 +97,6 @@ const Home = () => {
 
       </div>
     </section>
-		{/* <!-- End Counts Section --> */}
 
             <section>
            <div className='App'>
@@ -223,10 +179,128 @@ const Home = () => {
            </div>
           {/* <video className="" src={movie} muted loop autoPlay></video> */}
           </section>
-    {/* <!-- ======= Why Us Section ======= --> */}
-   
+					{/* End Things to do */}
 
-    {/* <!-- ======= Features Section ======= --> */}
+      {/* <!-- ======= Small Icons Section ======= --> */}
+    <section id="about" className="about home-section">
+      <div className="container" data-aos="fade-up">
+
+        <div className="row">
+          <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/cincyhistory.jpg" className="img-fluid" alt="Cincinnati Union Terminal" />
+          </div>
+          <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>A City Full of History</h3>
+            <p>Cincinnati was founded in 1788 by Colonel Robert Patterson and Judge John Cleves Symmes. They named the city "Cincinnati" after the Society of the Cincinnati, of which they were members.</p>
+
+						<p>Cincinnati was the first major city founded after the American Revolution, and because of this, it is sometimes called "The Birthplace of the West."</p>
+
+						<p>Cincinnati grew rapidly in its early years, and by the 1830s it was the sixth-largest city in the United States. It was a major stop on the Underground Railroad, and its population was very diverse for its time.</p>
+
+						<p>Cincinnati was a major manufacturing city during the Industrial Revolution, and it remained an important manufacturing center even after the decline of industry in the mid-20th century. Today, the city is known for its arts and culture scene, as well as its food (Cincinnati chili is a popular dish).</p>
+            {/* <p className="fst-italic">
+              What, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i className="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul> */}
+            {/* <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            </p> */}
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+		{/* <!-- End About Section --> */}
+
+ {/*========== fun facts ========= */}
+ {/* <section className="fun-facts">
+        <div className="container">
+          <h1 className="fn-title text-center my-5">DID YOU KNOW</h1>
+          <div className="row">
+            <div className="col-md-6 col-lg-4 d-flex justify-content-center">
+              <div className="fn-card m-2 cb1 text-center">
+                <div className="fn-card-body">
+                  <span className="fn-card-number fw-bold">01</span>
+                  <h2 className="fn-card-title mb-4">
+                    Over-the-Rhine Brewery District
+                  </h2>
+                  <p className="fn-card-text">
+                    Somewhere between Prohibition, two world wars and urban
+                    sprawl, the tunnels beneath Over-the-Rhine, Newport and
+                    Covington that brewery workers used to access lagering
+                    cellars and transport goods between buildings were all but
+                    forgotten. Then in 2008, urban explorers came across
+                    original brewery blueprints, curiosity led to jack
+                    hammering, and the tunnels were rediscovered.You can see the
+                    curious underworld for yourself on a Brewing Heritage Trail
+                    Tour. One tour ends in a cellar beneath the original
+                    Kauffman Brewery malt house. Built in 1860, Kauffman grew to
+                    be the fourth largest brewery in Cincinnati, but never
+                    reopened after Prohibition.!.
+                  </p>
+                  <button className="fn-btn btn-success">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4 d-flex justify-content-center">
+              <div className="fn-card m-2 cb1 text-center">
+                <div className="fn-card-body">
+                  <span className="fn-card-number fw-bold">02</span>
+                  <h2 className="fn-card-title mb-4">Built on Beer</h2>
+                  <p className="fn-card-text">
+                    Cincinnati and Northern Kentucky were, quite literally,
+                    built on beer. By the mid-1800s, 36 breweries were producing
+                    more than 30 million gallons of beer and digging underground
+                    lagering cellars and tunnels. One batch of lager at a time,
+                    Cincinnati's so-called beer barons turned humble brewing
+                    operations into beer-making empires that prospered until
+                    Prohibition forced them all to close. Few reopened, and none
+                    survived consecutively into the 21st century (after
+                    operating for 114 years, Hudepohl Brewing Company closed in
+                    1999) Now, in just a few years, the number of breweries in
+                    Cincinnati and Northern Kentucky has surpased the number
+                    that exhisted prior to Prohibition.
+                  </p>
+                  <button className="fn-btn btn-success">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6 col-lg-4 d-flex justify-content-center">
+              <div className="fn-card m-2 cb1 text-center">
+                <div className="fn-card-body">
+                  <span className="fn-card-number fw-bold">03</span>
+                  <h2 className="fn-card-title mb-4">Beer Capital of the World</h2>
+                  <p className="fn-card-text">
+                    In 1860, as many as 36 breweries operated in Cincinnati. By
+                    1889, a fewer number of breweries (23) produced even more
+                    beer, collectively brewing 35,700,000 gallons of suds drunk
+                    the world over (Christian Moerlein Brewing Company exported
+                    beer as far as South America and Europe). In fact, so much
+                    beer was made and consumed in Cincinnati that in 1890 it was
+                    dubbed the “Beer Capital of the World.The vast majority of
+                    Cincinnati's pre-Prohibition breweries were in
+                    Over-the-Rhine, clustered together along McMicken Avenue and
+                    the canal. From 1875-1900, 17 operated in Over-the-Rhine and
+                    the West End.
+                  </p>
+                  <button className="fn-btn btn-success">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+ {/*============ end of fun facts ============ */}
+
+    {/* <!-- ======= Small Icons Section ======= --> */}
     <section id="features" className="features home-section">
       <div className="container" data-aos="fade-up">
 
@@ -272,6 +346,9 @@ const Home = () => {
       </div>
     </section>
 
+
+
+{/* Plan your trip section */}
 <section className="home-section">
 <div className="container text-center">
   <h1>Excited? Plan your trip today!</h1>

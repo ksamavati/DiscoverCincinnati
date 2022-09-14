@@ -7,7 +7,6 @@ import MapPage from './components/MapPage';
 import OneLocation from './components/OneLocation';
 import Contact from './components/Contact';
 import Teams from './components/Teams';
-import Boxes from './components/Boxes';
 import {Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -49,7 +48,6 @@ function App() {
 					<Route path="/locations" element={<Category />} />
 					<Route path="/map" element={<MapPage />} />
 					<Route path="/contact" element={<Contact />} />
-					<Route path="/boxes" element={<Boxes />} />
 					<Route path="/destination-:id" element={<OneLocation />} />
 					<Route path="/:cat" element={<Category />} />
 					<Route path="/team" element={<Teams />} />
