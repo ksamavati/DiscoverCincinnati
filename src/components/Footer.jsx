@@ -20,7 +20,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className='d-flex flex-column flex-person'>
-				<h5>Jonas
+				<h5>Jonas Appau
 				</h5>
 				<div className="rounded-social-buttons my-2">
 					<a className="social-button linkedin" href="https://www.linkedin.com/in/ksamavati/" target="_blank"   rel="noreferrer" aria-label="Facebook"><i className="fab fa-linkedin"></i></a>
@@ -31,7 +31,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className='d-flex flex-column flex-person'>
-				<h5>Vera
+				<h5>Vera Opoku
 				</h5>
 				<div className="rounded-social-buttons my-2">
 					<a className="social-button linkedin" href="https://www.linkedin.com/in/ksamavati/" target="_blank"   rel="noreferrer" aria-label="Facebook"><i className="fab fa-linkedin"></i></a>

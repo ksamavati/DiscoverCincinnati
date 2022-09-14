@@ -33,7 +33,7 @@ const Home = () => {
               Cincinnati is a great city with a lot to offer. The people are friendly and there is always something to do. The city has a great history and there are plenty of places to visit. The food is amazing and there is a great variety of restaurants. The city is also home to a great music scene. There are many reasons to visit Cincinnati, but these are just a few of the reasons why you should experience Cincinnati for yourself.
               </p>
               <div className="text-center">
-                <a href="about.html" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
+                <a href="#features" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -305,41 +305,41 @@ const Home = () => {
       <div className="container" data-aos="fade-up">
 
         <div className="row" data-aos="zoom-in" data-aos-delay="100">
-          <div className="col-lg-3 col-md-4">
+          <div className="col-lg-3 col-md-4"><Link className="nav-link" to="/attractions">
             <div className="icon-box">
               <i className="ri-star-line" style={{color: "#ffbb2c"}}></i>
-              <h3><Link className="nav-link" to="/attractions">Attractions</Link></h3>
-            </div>
+              <h3>Attractions</h3>
+            </div></Link>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div className="icon-box">
+					<Link className="nav-link" to="/sports"><div className="icon-box">
               <i className="ri-football-line" style={{color: "#5578ff"}}></i>
-              <h3><Link className="nav-link" to="/sports">Sports</Link></h3>
-            </div>
+              <h3>Sports</h3>
+            </div></Link>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div className="icon-box">
+					<Link className="nav-link" to="/bars"><div className="icon-box">
               <i className="ri-goblet-fill" style={{color: "#e80368"}}></i>
-              <h3><Link className="nav-link" to="/bars">Bars</Link></h3>
-            </div>
+              <h3>Bars</h3>
+            </div></Link>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div className="icon-box">
+					<Link className="nav-link" to="/breweries"><div className="icon-box">
               <i className="ri-cup-fill" style={{color: "#e361ff"}}></i>
-              <h3><Link className="nav-link" to="/breweries">Breweries</Link></h3>
-            </div>
+              <h3>Breweries</h3>
+            </div></Link>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
+					<Link className="nav-link" to="/arts"><div className="icon-box">
               <i className="ri-file-music-fill" style={{color: "#47aeff"}}></i>
-              <h3><Link className="nav-link" to="/arts">Performing Arts & Music</Link></h3>
-            </div>
+              <h3>Performing Arts & Music</h3>
+            </div></Link>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
+					<Link className="nav-link" to="/parks"><div className="icon-box">
               <i className="ri-walk-fill" style={{color: "#ffa76e"}}></i>
-              <h3><Link className="nav-link" to="/parks">Parks and Recreation</Link></h3>
-            </div>
+              <h3>Parks and Recreation</h3>
+            </div></Link>
           </div>
         </div>
 
@@ -354,11 +354,10 @@ const Home = () => {
   <h1>Excited? Plan your trip today!</h1>
   <div className="col-md-6 order-1 order-md-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/travel.jpg" className="img-fluid" alt="Cincinnati Skyline" />
-          </div>
-					
   <div className="col-md-6 order-1 order-md-2" data-aos="fade-in" data-aos-delay="100"></div>
 						<div data-skyscanner-widget="SearchWidget" data-origin-geo-lookup="true" data-destination-name="Cincinnati" data-flight-type="return"
   data-iframe="true"></div>
+          </div>
   </div>
 	<Button variant="primary"><Card2.Link href="https://reservations.cincinnatiusa.com/hotel/list/4872/m2441?Search%5BhotelRegion%5D=m2441&Search%5BcheckInDate%5D=&Search%5BcheckOutDate%5D=&Search%5BnumberOfRooms%5D=1&Search%5BnumberOfAdults%5D=1&Search%5BnumberOfChildren%5D=0&Search%5BkeywordSearch%5D=&Search%5Bsort%5D=rank&Search%5BstarRating%5D=&Search%5BlowPrice%5D=&Search%5BhighPrice%5D=&customNavLink=0&Search%5Bnear%5D=&Search%5Blatitude%5D=&Search%5Blongitude%5D=&Search%5BlocationSearch%5D=Downtown&Search%5BpoiDistance%5D="><h3 className="text-white">Book Now</h3></Card2.Link></Button>
 </section>
