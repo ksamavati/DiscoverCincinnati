@@ -40,7 +40,7 @@ const Navbar = () => {
 							<Link className="nav-link" to="/contact" onMouseOver={handleMouseOut}>Contact</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" to="/boxes" onMouseOver={handleMouseOut}>Boxes</Link>
+							<Link className="nav-link" to="/team" onMouseOver={handleMouseOut}>About the Team</Link>
 						</li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
