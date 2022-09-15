@@ -91,7 +91,7 @@ const Category = (props) => {
 		return (<div id="preloader"></div>)
 	} else {
 	return (
-		<div style={{backgroundColor: "#fff" }}>
+		<div style={{backgroundColor: "#ddd" }}>
     <Carousel>
 		{getCarouselItems(locArr)}
     </Carousel>

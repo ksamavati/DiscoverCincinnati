@@ -159,7 +159,7 @@ function Teams() {
                       alt="Ryan"
                     />
                   </div>
-                  <div className="card-text pt-1">
+                  <div className="card-text pt-1 text-center">
                     <h5 className="member-name mb-0 text-center text-primary font-weight-bold">
                       Ryan Twele
                     </h5>
@@ -208,7 +208,7 @@ function Teams() {
                       alt="spencer"
                     />
                   </div>
-                  <div className="card-text pt-1">
+                  <div className="card-text pt-1 text-center">
                     <h5 className="member-name mb-0 text-center text-primary font-weight-bold">
                       Spencer Dresmann
                     </h5>
