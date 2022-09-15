@@ -56,6 +56,23 @@ function MapElement() {
 		lng: -84.512016
 	};
 
+	const getPinColor = (cat) => {
+		switch(cat) {
+			case "bars":
+				return({
+					backgroundColor: "#0000ff",
+					fillColor: "#0000ff",
+					strokeColor: "0000ff"
+				})
+			case "breweries":
+				return({
+					backgroundColor: "#0000ff",
+					fillColor: "#0000ff",
+					strokeColor: "0000ff"
+				})
+		}
+	} 
+
 	const getPins = (locArr) => {
 			return locArr.map((loc) => {
 				return (<Marker	position={{
@@ -64,9 +81,21 @@ function MapElement() {
 					}}
 					animation={window.google.maps.Animation.DROP}
 					key={loc.id}
+          // icon={{path: 'M12.75 0l-2.25 2.25 2.25 2.25-5.25 6h-5.25l4.125 4.125-6.375 8.452v0.923h0.923l8.452-6.375 4.125 4.125v-5.25l6-5.25 2.25 2.25 2.25-2.25-11.25-11.25zM10.5 12.75l-1.5-1.5 5.25-5.25 1.5 1.5-5.25 5.25z',
+          //     fillColor: '#34495e',
+          //     fillOpacity: 1,
+          //     strokeColor: '#000',
+          //     strokeWeight: 1,
+          //     scale: 1,
+          //   }}
 					onClick={() => {
 						setSelected(loc);
 					}}
+					style={{
+					backgroundColor: "#0000ff",
+					fillColor: "#0000ff",
+					strokeColor: "0000ff"
+				}}
 					 />)
 		})
 

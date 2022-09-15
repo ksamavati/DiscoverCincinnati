@@ -104,7 +104,8 @@ const OneLocation = () => {
 	} else {
 		return (
 			<div>
-				<button onClick={() => navigate(-1)}>Go back</button>
+				{/* <button onClick={() => navigate(-1)}>Go back</button> */}
+				<div onClick={() => navigate(-1)} className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></div>
 
 				<Carousel>
 					{mapsData.photos.map(photo => {

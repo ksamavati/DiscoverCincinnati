@@ -42,15 +42,15 @@ const Contact = () => {
 												<h4>Contact Info</h4>
 												<div className="d-flex info_single align-items-center">
 														<i className="fas fa-headset tiny-icon"></i>
-														<span> +91 8009 054294</span>
+														<span>937-529-8661</span>
 												</div>
 												<div className="d-flex info_single align-items-center">
 														<i className="fas fa-envelope-open-text tiny-icon"></i>
-														<span> info@flightmantra.com</span>
+														<span>kayvonsamavati@gmail.com</span>
 												</div>
 												<div className="d-flex info_single align-items-center">
 														<i className="fas fa-map-marked-alt tiny-icon"></i>
-														<span>1000+ Travel partners and 65+ Service city across India, USA, Canada & UAE</span>
+														<span>Cincinnati, OH</span>
 												</div>
 										</div>
 								</div>

@@ -352,14 +352,13 @@ const Home = () => {
 <section className="home-section">
 <div className="container text-center">
   <h1>Excited? Plan your trip today!</h1>
-  <div className="col-md-6 order-1 order-md-2" data-aos="fade-left" data-aos-delay="100">
+  <div data-aos="fade-left d-flex flex-md-row" data-aos-delay="100">
             <img src="assets/img/travel.jpg" className="img-fluid" alt="Cincinnati Skyline" />
-  <div className="col-md-6 order-1 order-md-2" data-aos="fade-in" data-aos-delay="100"></div>
 						<div data-skyscanner-widget="SearchWidget" data-origin-geo-lookup="true" data-destination-name="Cincinnati" data-flight-type="return"
   data-iframe="true"></div>
-          </div>
   </div>
-	<Button variant="primary"><Card2.Link href="https://reservations.cincinnatiusa.com/hotel/list/4872/m2441?Search%5BhotelRegion%5D=m2441&Search%5BcheckInDate%5D=&Search%5BcheckOutDate%5D=&Search%5BnumberOfRooms%5D=1&Search%5BnumberOfAdults%5D=1&Search%5BnumberOfChildren%5D=0&Search%5BkeywordSearch%5D=&Search%5Bsort%5D=rank&Search%5BstarRating%5D=&Search%5BlowPrice%5D=&Search%5BhighPrice%5D=&customNavLink=0&Search%5Bnear%5D=&Search%5Blatitude%5D=&Search%5Blongitude%5D=&Search%5BlocationSearch%5D=Downtown&Search%5BpoiDistance%5D="><h3 className="text-white">Book Now</h3></Card2.Link></Button>
+  </div>
+	{/* <Button variant="primary"><Card2.Link href="https://reservations.cincinnatiusa.com/hotel/list/4872/m2441?Search%5BhotelRegion%5D=m2441&Search%5BcheckInDate%5D=&Search%5BcheckOutDate%5D=&Search%5BnumberOfRooms%5D=1&Search%5BnumberOfAdults%5D=1&Search%5BnumberOfChildren%5D=0&Search%5BkeywordSearch%5D=&Search%5Bsort%5D=rank&Search%5BstarRating%5D=&Search%5BlowPrice%5D=&Search%5BhighPrice%5D=&customNavLink=0&Search%5Bnear%5D=&Search%5Blatitude%5D=&Search%5Blongitude%5D=&Search%5BlocationSearch%5D=Downtown&Search%5BpoiDistance%5D="><h3 className="text-white">Book Now</h3></Card2.Link></Button> */}
 </section>
   </main>
 
