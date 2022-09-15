@@ -41,7 +41,7 @@
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: .25rem;
-	-webkit-line-clamp: 13;
+	-webkit-line-clamp: 15;
 	display: -webkit-box;
 	overflow: hidden;
 	-webkit-box-orient: vertical;

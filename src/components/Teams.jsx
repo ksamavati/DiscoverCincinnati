@@ -70,7 +70,7 @@ function Teams() {
                     </h5>
                     <div className="mb-3 text-center">Project Lead and Backend Specialist</div>
                     <div>
-                      Automation fanatic and eternal student. Code monkey by day and slightly more focused code monkey by night.
+                      Automation fanatic and eternal student. Code monkey by day and swole code gorilla by night.
                     </div>
                   </div>
                 </div>
@@ -110,15 +110,13 @@ function Teams() {
                       alt="Jonas"
                     />
                   </div>
-                  <div className="card-text pt-1">
+                  <div className="pt-1">
                     <h5 className="member-name mb-0 text-center text-primary font-weight-bold">
                       Jonas Appau
                     </h5>
                     <div className="mb-3 text-center">Database Architect and VFX Specialist</div>
                     <div className="text-center">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.
+										Enjoys stirring up innovation with creative artistry, vision, flair and functionality to deliver results that reflect technological goals and ideas in a clear and concise manner.
                     </div>
                   </div>
                 </div>
@@ -165,12 +163,7 @@ function Teams() {
                     </h5>
                     <div className="mb-3 text-center">Instructor</div>
                     <div>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Aenean commodo ligula eget dolor. Vivamus eget eros
-                      vestibulum, accumsan ante viverra, condimentum tellus.
-                      Curabitur pellentesque convallis purus non ornare. Donec
-                      bibendum sed purus dignissim rutrum. Maecenas bibendum
-                      feugiat est, et venenatis nunc.
+										Coffee addict and avid proponent of blockchain tech. In his free time he enjoys long walks on the beach and explaining development fundamentals to aspiring web developers.
                     </div>
                   </div>
                 </div>
@@ -214,7 +207,7 @@ function Teams() {
                     </h5>
                     <div className="mb-3 text-center">Teaching Assitant</div>
                     <div>
-                      Future game developer and Ramen bowl consumer. Fueled by ramen and canned energy.
+                      Future game developer and Ramen bowl consumer. Atomic makeup primarily composed of tonkotsu and pure liquid Nos biofuel. Ask him about Outer Wilds. Seriously.
                     </div>
                   </div>
                 </div>
