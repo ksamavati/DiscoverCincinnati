@@ -68,19 +68,20 @@
   /**
    * Close mobile nav when nav-item clicked
    */
-  on('click', '.nav-item', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-  })
 
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
+	$(".nav-link").on('click', (e) => {
+		console.log("nav-link click executed");
+    select("#navbar").classList.toggle('navbar-mobile');
+    select('#hamburger').classList.add('bi-list');
+    select('#hamburger').classList.remove('bi-x');
+	});
+
+  // on('click', '.nav-link', function(e) {
+	// 	console.log("nav-link click executed");
+  //   classList.toggle('navbar-mobile')
+  //   select('#hamburger').classList.add('bi-list')
+  //   select('#hamburger').classList.remove('bi-x')
+  // })
 
   /**
    * Preloader

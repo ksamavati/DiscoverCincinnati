@@ -37,7 +37,8 @@
 }
 
 .contact_field {
-	padding: 60px 300px 90px 100px;
+	padding: 60px 260px 90px 100px;
+	max-width: 950px;
 }
 
 @media (max-width: 978px) {

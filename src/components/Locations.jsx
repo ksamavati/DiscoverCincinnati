@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 import '../css/Locations.css';
 import { motion } from 'framer-motion';
 
-const Category = (props) => {
+const Locations = (props) => {
 	const [locArr, setLocArr] = useState([]);
 	const { cat } = useParams();
 
@@ -108,4 +108,4 @@ const Category = (props) => {
 	}
 }
 
-export default Category
+export default Locations

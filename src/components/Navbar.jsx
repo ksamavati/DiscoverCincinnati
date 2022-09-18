@@ -42,7 +42,7 @@ const Navbar = () => {
 							<Link className="nav-link" to="/team" onMouseOver={handleMouseOut}>About the Team</Link>
 						</li>
 					</ul>
-					<i className="bi bi-list mobile-nav-toggle"></i>
+					<i id="hamburger" className="bi bi-list mobile-nav-toggle"></i>
 					{/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button> */}
