@@ -73,6 +73,25 @@ function MapElement() {
 		}
 	} 
 
+	const getPinIcon = (cat) => {
+		switch(cat) {
+			case 'arts':
+			return './assets/img/mapPins/arts.png';
+			case 'parks':
+			return './assets/img/mapPins/parks.png';
+			case 'bars':
+			return './assets/img/mapPins/bars.png';
+			case 'breweries':
+			return './assets/img/mapPins/breweries.png';
+			case 'sports':
+			return './assets/img/mapPins/sports.png';
+			case 'attractions':
+			return './assets/img/mapPins/attractions.png';
+			default:
+			return './assets/img/mapPins/default.png';
+		}
+	}
+
 	const getPins = (locArr) => {
 			return locArr.map((loc) => {
 				return (<Marker	position={{
@@ -88,6 +107,7 @@ function MapElement() {
           //     strokeWeight: 1,
           //     scale: 1,
           //   }}
+					icon={{ url: getPinIcon(loc.category) }}
 					onClick={() => {
 						setSelected(loc);
 					}}
@@ -104,6 +124,20 @@ function MapElement() {
 		// }))
 	}
 
+	let myStyles = [
+    {
+			featureType: "poi",
+			elementType: "labels",
+			stylers: [
+						{ visibility: "off" }
+			]
+	}
+	]
+
+	const onCloseClick = React.useCallback(function callback(map) {
+    setSelected(null)
+  }, []);
+	
 
   return isLoaded ? (
       <GoogleMap
@@ -111,11 +145,18 @@ function MapElement() {
         center={center}
         zoom={15}
         onLoad={onLoad}
+				clickableIcons={false}
+				options={{ styles: myStyles }}
+				onClick={onCloseClick}
       >
         { /* Child components, such as markers, info windows, etc. */ }
 				{(locArr.length > 0) ? getPins(locArr) : <></> }
 				{selected ? 
-					<InfoWindow position={{lat: selected.location.lat, lng: selected.location.lng}} pixelOffset={-50}>
+					<InfoWindow 
+						position={{lat: selected.location.lat, lng: selected.location.lng}}
+						options={{ pixelOffset: new window.google.maps.Size(0, -34) }}
+						onCloseClick={onCloseClick}
+					>
 					<div className="d-flex flex-column align-items-center">
 						<h6>{selected.name}</h6>
 						<div>{selected.address1}</div>

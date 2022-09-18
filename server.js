@@ -25,6 +25,11 @@ app.use('/locationsdb', locationsRouter);
 
 app.use(express.static('./build'));
 
+app.use('/*',(req, res) => {
+	console.log("Redirecting request for " + req.baseUrl + " to homepage");
+	res.redirect("/");
+})
+
 app.listen(port, () => {
 	console.log(`Server is running on port: ${port}`);
 });
