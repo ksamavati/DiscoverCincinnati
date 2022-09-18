@@ -10,6 +10,15 @@
 		"my-hours-cell my-description-cell my-description-cell my-description-cell my-contact-cell my-contact-cell";
 }
 
+.my-carousel-title {
+	position: absolute;
+	z-index: 10;
+	top: 47vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	font-size: 4vw;
+}
+
 .my-address-cell {
 	grid-area: my-address-cell;
 	justify-self: center;

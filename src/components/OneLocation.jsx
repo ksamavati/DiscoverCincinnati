@@ -106,25 +106,23 @@ const OneLocation = () => {
 			<div>
 				{/* <button onClick={() => navigate(-1)}>Go back</button> */}
 				<div onClick={() => navigate(-1)} className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></div>
-
+				<div>
+				<h1 className="my-carousel-title text-white text-center">{loc.name}</h1>
 				<Carousel>
 					{mapsData.photos.map(photo => {
 						return (
 							<Carousel.Item interval={4000}>
+								{console.log(photo)}
 								<img
-									className="d-block w-100 my-car-img"
+									className="d-block my-car-img"
 									src={"https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photo_reference=" + photo.photo_reference + "&key=AIzaSyCdU6rorFzmBl-NxqSRVJfVl7dy2nniTM8"}
 									alt={loc.name}
 								/>
 							</Carousel.Item>
-
 						)
 					})}
-					<Carousel.Caption>
-						<h1>{loc.name}</h1>
-						{/* <p>{location.description}</p> */}
-					</Carousel.Caption>
 				</Carousel>
+				</div>
 				<div className="container">
 
 					<div className="d-flex flex-row py-3">
@@ -192,7 +190,6 @@ const OneLocation = () => {
 													HOURS OF OPERATION <i className="fa-solid fa-clock"></i>
 												</h6>
 												<p style={{whiteSpace: 'nowrap'}}>{getHours(mapsData.opening_hours)}</p>
-												{/* <p>{mapsData.opening_hours.weekday_text.map(line => {return (<span>{line}<br /></span>)})}</p> */}
 											</div>
 										</div>
 									</div>
@@ -204,8 +201,6 @@ const OneLocation = () => {
 							<div>
 								<div className="my-map-cell" style={{ width: '100%', height: '100%' }}>
 									<SinglePinMap coords={mapsData.geometry.location} />
-
-									{/* <iframe style={{ border: '0', width: '100%', height: '100%' }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sTQL+Stadium!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> */}
 								</div>
 
 							</div>
@@ -213,7 +208,7 @@ const OneLocation = () => {
 								<h2>{loc.name}</h2>
 								<p>{loc.description}</p>
 								<h4 className="mt-5">Average Review Score</h4>
-								<h1 className="text-warning">{mapsData.rating ? getStars(mapsData.reviews[0].rating) : "No reviews so far"}</h1>
+								<h1 className="text-warning">{mapsData.rating ? getStars(mapsData.rating) : "No reviews so far"}</h1>
 								<p>{mapsData.user_ratings_total ? "(" + mapsData.rating + ") out of " + mapsData.user_ratings_total + " total reviews" : <a href={mapsData.url}>Be the first to write one</a>}</p>
 							</div>
 						</div>
