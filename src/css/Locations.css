@@ -65,7 +65,7 @@
 
 .my-car-img {
 	transform: translateY(-26%);
-	filter: brightness(55%);
+	filter: brightness(75%);
 	min-width: 100%;
 	min-height: 135%;
 	object-fit: cover;

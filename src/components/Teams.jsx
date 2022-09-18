@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Card from "react-bootstrap/Card";
 import "../css/Teams.css";
 
 function Teams() {
+	useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+	});
+
   return (
     <>
       <section className="team-section py-5">

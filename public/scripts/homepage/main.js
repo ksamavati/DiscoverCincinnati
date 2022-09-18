@@ -66,6 +66,13 @@
   })
 
   /**
+   * Close mobile nav when nav-item clicked
+   */
+  on('click', '.nav-item', function(e) {
+    select('#navbar').classList.toggle('navbar-mobile')
+  })
+
+  /**
    * Mobile nav dropdowns activate
    */
   on('click', '.navbar .dropdown > a', function(e) {
@@ -129,6 +136,6 @@
 	/**
    * Initiate Pure Counter 
    */
-		//  new PureCounter();
+	//  new PureCounter();
 
 })()

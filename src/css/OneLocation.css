@@ -12,9 +12,10 @@
 
 .my-carousel-title {
 	position: absolute;
-	z-index: 10;
-	top: 47vh;
+	z-index: 1;
+	top: 49vh;
 	left: 50vw;
+	white-space: nowrap;
 	transform: translate(-50%, -50%);
 	font-size: 3vw;
 }

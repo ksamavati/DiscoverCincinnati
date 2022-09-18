@@ -10,10 +10,10 @@
 
 .navbar {
 	/* min-height: 50px; */
-	font-size: 15pt;
+	font-size: 14pt;
 }
 
 .navbar-brand {
-	font-size: 25pt;
+	font-size: 30px !important;
 	padding: 0;
 }

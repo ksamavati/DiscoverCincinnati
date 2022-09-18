@@ -1,33 +1,32 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
-import Subnav from './Subnav';
-import {Transition, CSSTransition, SwitchTransition, TransitionGroup} from "react-transition-group";
-
+import Subnav from './subcomponents/Subnav';
 
 const Navbar = () => {
-		const [isHovering, setIsHovering] = useState(false);
-		const handleMouseOver = () => {
-			setIsHovering(true);
-		};
-	
-		const handleMouseOut = () => {
-			setIsHovering(false);
-		};
+	const [isHovering, setIsHovering] = useState(false);
+	const handleMouseOver = () => {
+		setIsHovering(true);
+	};
 
-	
+	const handleMouseOut = () => {
+		setIsHovering(false);
+	};
+
+
 	return (
 		<header id="header" className="fixed-top" onMouseLeave={handleMouseOut}>
-    <div className="container d-flex align-items-center">
-
-      <h1 className="logo me-auto"><Link className="nav-link" to="/"
-								onMouseOver={handleMouseOut}>Discover<b>Cincinnati</b></Link></h1>
-      {/* <!-- Uncomment below if you prefer to use an image logo --> */}
-      {/* <!-- <a href="index.html" className="logo me-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"></a>--> */}
-
-      <nav id="navbar" className="navbar">
-        <ul>
-				<li className="">
+			<div className="container navbar d-flex align-items-center">
+				{/* <div className="navbar navbar-expand-lg"> */}
+				<h1 className="navbar-brand logo">
+					<Link className="nav-link" to="/" onMouseOver={handleMouseOut}>
+						Discover<b>Cincinnati</b>
+					</Link>
+				</h1>
+				{/* <nav id="navbar" className="navbar navbar-expand-lg"> */}
+				<nav id="navbar" className="navbar-nav mr-auto">
+					<ul>
+						<li className="nav-item">
 							<Link className="nav-link" to="/" onMouseOver={handleMouseOut}>Home</Link>
 						</li>
 						<li className="nav-item">
@@ -42,14 +41,17 @@ const Navbar = () => {
 						<li className="nav-item">
 							<Link className="nav-link" to="/team" onMouseOver={handleMouseOut}>About the Team</Link>
 						</li>
-        </ul>
-        <i className="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-			{/* <!-- .navbar --> */}
-    </div>
-		{isHovering && <Subnav />}
-		{/* <Subnav /> */}
-  </header>
+					</ul>
+					<i className="bi bi-list mobile-nav-toggle"></i>
+					{/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button> */}
+				</nav>
+				{/* <!-- .navbar --> */}
+			</div>
+			{isHovering && <Subnav />}
+			{/* <Subnav /> */}
+		</header>
 	)
 }
 

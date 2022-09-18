@@ -3,7 +3,7 @@ import React from 'react'
 const TopOfPage = () => {
 
 	const scroll = () => {
-		{window.scrollTo(0, 0)}
+		{ window.scrollTo(0, 0) }
 	}
 
 	return (
