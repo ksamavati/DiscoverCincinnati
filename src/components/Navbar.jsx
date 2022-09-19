@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 import Subnav from './subcomponents/Subnav';
+import Helmet from 'react-helmet';
 
 const Navbar = () => {
 	const [isHovering, setIsHovering] = useState(false);
@@ -51,6 +52,11 @@ const Navbar = () => {
 			</div>
 			{isHovering && <Subnav />}
 			{/* <Subnav /> */}
+
+			<Helmet>
+				<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+				<script src="/scripts/homepage/main.js"></script>
+			</Helmet>
 		</header>
 	)
 }

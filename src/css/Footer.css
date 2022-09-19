@@ -164,6 +164,7 @@ textarea {
 .flex-person {
 	max-width: 220px;
 	min-width: 220px;
+	margin: 14px 0px 14px 0px;
 }
 
 .flex-gutter {
@@ -172,4 +173,5 @@ textarea {
 	flex-basis: 20%;
 	max-width: 300px;
 	min-width: 200px;
+	margin: 20px 20px 20px 20px;
 }

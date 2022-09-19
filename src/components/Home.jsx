@@ -84,7 +84,7 @@ const Home = () => {
 						<div className="row counters">
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="0" data-purecounter-end="302687" data-purecounter-duration="1" className="purecounter">302,687</span>
+								<span data-purecounter-start="0" data-purecounter-end="302687" data-purecounter-duration="2.5" className="purecounter">302,687</span>
 								<p>Population</p>
 							</div>
 
@@ -94,12 +94,12 @@ const Home = () => {
 							</div>
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="0" data-purecounter-end="1788" data-purecounter-duration="1" className="purecounter">1788</span>
+								<span data-purecounter-start="2022" data-purecounter-end="1788" data-purecounter-duration="1.5" className="purecounter">1788</span>
 								<p>Year Founded</p>
 							</div>
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="0" data-purecounter-end="80327" data-purecounter-duration="1" className="purecounter">80,327</span>
+								<span data-purecounter-start="0" data-purecounter-end="80327" data-purecounter-duration="2" className="purecounter">80,327</span>
 								<p>Jobs supported by tourism</p>
 							</div>
 
@@ -385,8 +385,8 @@ const Home = () => {
 			</main>
 
 			<Helmet>
-				<script src="/scripts/homepage/main.js"></script>
-				<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+				{/* <script src="/scripts/homepage/main.js"></script> */}
+				{/* <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> */}
 				<script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async></script>
 			</Helmet>
 		</div>

@@ -5,11 +5,11 @@ import '../../css/Footer.css';
 
 const Footer = () => {
 	return (
-		<footer id="footer" className="d-flex flex-row justify-content-around align-items-center text-center flex-wrap py-4" style={{ backgroundColor: '#eef0ef', gap: "15px" }}>
-			<div className='flex-person'>
-				This website is a final capstone project made by a group of 3 students who have graduated from Kable Academy's full-stack web development program in September 2022.
+		<footer id="footer" className="d-flex flex-row justify-content-evenly align-items-center text-center flex-wrap py-2" style={{ backgroundColor: '#eef0ef' }}>
+			<div className='flex-person ms-3'>
+				This website was built as the final capstone project of a group of 3 students who have graduated from Kable Academy's full-stack web development program in September 2022.
 			</div>
-			<div className='d-flex flex-column flex-person'>
+			<div className='d-flex flex-column flex-person align-items-center'>
 				<h5>Kayvon Samavati
 				</h5>
 				<div className="rounded-social-buttons my-2">
@@ -17,10 +17,10 @@ const Footer = () => {
 					<a className="social-button github" href="https://github.com/ksamavati" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fab fa-github"></i></a>
 					<a className="social-button portfolio" href="https://www.ksamavati.com" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fas fa-briefcase"></i></a>
 				</div>
-				<div className="d-flex flex-row justify-content-around"><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
+				<div className="d-flex flex-row justify-content-around" style={{ width: "194px" }}><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
 				</div>
 			</div>
-			<div className='d-flex flex-column flex-person'>
+			<div className='d-flex flex-column flex-person align-items-center'>
 				<h5>Jonas Appau
 				</h5>
 				<div className="rounded-social-buttons my-2">
@@ -28,10 +28,10 @@ const Footer = () => {
 					<a className="social-button github" href="https://github.com/Jonasappau16" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fab fa-github"></i></a>
 					<a className="social-button portfolio" href="#header" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fas fa-briefcase"></i></a>
 				</div>
-				<div className="d-flex flex-row justify-content-around"><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
+				<div className="d-flex flex-row justify-content-around" style={{ width: "194px" }}><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
 				</div>
 			</div>
-			<div className='d-flex flex-column flex-person'>
+			<div className='d-flex flex-column flex-person align-items-center'>
 				<h5>Vera Opoku
 				</h5>
 				<div className="rounded-social-buttons my-2">
@@ -39,11 +39,11 @@ const Footer = () => {
 					<a className="social-button github" href="https://github.com/Bigracksvee" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fab fa-github"></i></a>
 					<a className="social-button portfolio" href="#header" target="_blank" rel="noreferrer" aria-label="Facebook"><i className="fas fa-briefcase"></i></a>
 				</div>
-				<div className="d-flex flex-row justify-content-around"><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
+				<div className="d-flex flex-row justify-content-around" style={{ width: "194px" }}><span>LinkedIn</span><span>GitHub</span><span>Portfolio</span>
 				</div>
 			</div>
-			<div className='flex-person py-3'>
-				<h5 style={{ verticalAlign: 'middle' }}>
+			<div className='flex-person me-3'>
+				<h5 class="py-4" style={{ verticalAlign: 'middle', }}>
 					<Link to="/team">Learn more about us <span style={{ translate: "5px" }}><i className="fas fa-angles-right"></i></span></Link>
 				</h5>
 
