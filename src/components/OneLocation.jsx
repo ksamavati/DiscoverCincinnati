@@ -87,13 +87,13 @@ const OneLocation = () => {
 		let output = []
 		for (let i = 1; i <= 5; i++) {
 			if (score > 0.75) {
-				output.push(<i class="fa-solid fa-star"></i>)
+				output.push(<i className="fa-solid fa-star"></i>)
 				score--
 			} else if (score > 0.25) {
-				output.push(<i class="fa-regular fa-star-half-stroke"></i>)
+				output.push(<i className="fa-regular fa-star-half-stroke"></i>)
 				score--
 			} else {
-				output.push(<i class="fa-regular fa-star"></i>)
+				output.push(<i className="fa-regular fa-star"></i>)
 			}
 		}
 		return output;
@@ -106,9 +106,6 @@ const OneLocation = () => {
 			<div>
 				<h1 className="my-carousel-title text-white text-center">{loc.name}</h1>
 				{/* <button onClick={() => navigate(-1)}>Go back</button> */}
-				<div onClick={() => navigate(-1)} className="back-to-top d-flex align-items-center justify-content-center">
-					<i className="bi bi-arrow-up-short"></i>
-				</div>
 				<div>
 					<Carousel>
 						{mapsData.photos.map(photo => {
@@ -140,6 +137,10 @@ const OneLocation = () => {
 												<h6 className="category">
 													WHERE IT'S LOCATED <i className="fa-solid fa-location-dot"></i>
 												</h6>
+
+												<div onClick={() => navigate(-1)} className="back-to-top d-flex align-items-center justify-content-center" style={{ zIndex: '2' }}>
+													<i className="bi bi-arrow-up-short"></i>
+												</div>
 												<h4 className="loc-title">
 												</h4>
 												<p className="description">

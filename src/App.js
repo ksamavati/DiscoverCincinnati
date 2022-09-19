@@ -27,7 +27,7 @@ function App() {
 			setRenderFooter(true);
 			}
 		}
-		if (location.pathname === '/map' || location.pathname === '/contact' || location.pathname === '/about') {
+		if (location.pathname === '/map' || location.pathname === '/contact' || location.pathname === '/team') {
 			if (renderFooter === true) {
 			setRenderTopLink(false);
 			}

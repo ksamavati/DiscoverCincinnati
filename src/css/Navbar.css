@@ -10,10 +10,29 @@
 
 .navbar {
 	/* min-height: 50px; */
-	font-size: 14pt;
+	font-size: 13pt;
 }
 
 .navbar-brand {
 	font-size: 30px !important;
 	padding: 0;
+}
+
+@media (max-width: 420px) {
+	.navbar-brand {
+		font-size: 7vw !important;
+		padding: 0;
+	}
+}
+
+.subnav-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.my-navbar {
+	position: absolute;
+	left: 0;
+	top: 0;
 }

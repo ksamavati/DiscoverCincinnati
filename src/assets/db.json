@@ -450,21 +450,6 @@
 		"image": "https://i.imgur.com/Ru3XzYh.jpg"
 	},
 	{
-		"_id": "630e53b10fd9e03ed68e163a",
-		"id": 31,
-		"name": "Cincy Tour Bus",
-		"address1": "743 US 50",
-		"address2": "Milford, OH 45150",
-		"phone": "(513) 655-3375",
-		"location": {
-			"lat": 39.1031182,
-			"lng": -84.5120196
-		},
-		"category": "attractions",
-		"description": "Whether you are a local resident, or just visiting this amazing city, you will leave with a full understanding of how the area evolved, and the wonderful landmarks that stood the test of time. We just can't wait to tell you their stories! Tour length is just shy of two hours and includes a 20 minute 'hop off' break at Union Terminal. Private tours and party bus rentals available!",
-		"image": "https://i.imgur.com/gbAm9uo.jpg"
-	},
-	{
 		"_id": "630e53b10fd9e03ed68e163b",
 		"id": 32,
 		"name": "Cincinnati Dinner Train",

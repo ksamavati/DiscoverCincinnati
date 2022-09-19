@@ -16,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<header id="header" className="fixed-top" onMouseLeave={handleMouseOut}>
-			<div className="container navbar d-flex align-items-center">
+			<div className="container-flex navbar d-flex align-items-center px-4 my-navbar" style={{ backgroundColor: '#fff', zIndex: 50 }}>
 				{/* <div className="navbar navbar-expand-lg"> */}
 				<h1 className="navbar-brand logo">
 					<Link className="nav-link" to="/" onMouseOver={handleMouseOut}>
@@ -43,8 +43,8 @@ const Navbar = () => {
 						</li>
 					</ul>
 					<i id="hamburger" className="bi bi-list mobile-nav-toggle"></i>
-					{/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+					{/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span className="navbar-toggler-icon"></span>
 					</button> */}
 				</nav>
 				{/* <!-- .navbar --> */}
