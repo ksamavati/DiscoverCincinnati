@@ -18,9 +18,9 @@
 	padding: 0;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
 	.navbar-brand {
-		font-size: 7vw !important;
+		font-size: 5vw !important;
 		padding: 0;
 	}
 }

@@ -1,16 +1,9 @@
-/**
-* Template Name: Mentor - v4.8.1
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 /* We need this global style because some rogue bootstrap library is */
-/* underlining all the links. Use inline style if you need to override */
+/* underlining all the links. Use inline style if you need to override -Kayvon */
 * {
 	text-decoration: none !important;
 }
