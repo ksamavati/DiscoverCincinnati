@@ -33,7 +33,7 @@ const Home = () => {
 
 			<main id="main">
 				<section id="why-us" className="why-us home-section">
-					<div className="container" data-aos="fade-up">
+					<div className="container">
 
 						<div className="row">
 							<div className="col-lg-4 d-flex align-items-stretch">
