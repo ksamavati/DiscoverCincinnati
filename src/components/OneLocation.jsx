@@ -19,7 +19,7 @@ const OneLocation = () => {
 		//get Place ID
 		var config1 = {
 			method: 'get',
-			url: 'https://cors-anywhere-ks.herokuapp.com/https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=' + loc.name + '&inputtype=textquery&locationbias=point:39.1031,84.5120&key=AIzaSyCdU6rorFzmBl-NxqSRVJfVl7dy2nniTM8',
+			url: 'https://cors-anywhere-ks.herokuapp.com/https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=' + loc.name + '&inputtype=textquery&locationbias=point:39.1031,84.5120&key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0',
 			headers: {
 				'Accept': 'application/json'
 			}
@@ -27,6 +27,7 @@ const OneLocation = () => {
 
 		await axios(config1)
 			.then(function (response) {
+				console.log(response.data);
 				let theData = response.data;
 				placeID = theData.candidates[0].place_id;
 			})
@@ -37,7 +38,7 @@ const OneLocation = () => {
 		//get Place Details
 		var config2 = {
 			method: 'get',
-			url: 'https://cors-anywhere-ks.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?place_id=' + placeID + '&key=AIzaSyCdU6rorFzmBl-NxqSRVJfVl7dy2nniTM8',
+			url: 'https://cors-anywhere-ks.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?place_id=' + placeID + '&key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0',
 			headers: {
 				'Accept': 'application/json'
 			}
@@ -46,6 +47,7 @@ const OneLocation = () => {
 		await axios(config2)
 			.then(function (response) {
 				// setMapsData(response.data);
+				console.log(response.data);
 				let theData = response.data;
 				setMapsData(theData.result);
 			})
@@ -113,7 +115,7 @@ const OneLocation = () => {
 								<Carousel.Item interval={4000}>
 									<img
 										className="d-block my-car-img"
-										src={"https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photo_reference=" + photo.photo_reference + "&key=AIzaSyCdU6rorFzmBl-NxqSRVJfVl7dy2nniTM8"}
+										src={"https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photo_reference=" + photo.photo_reference + "&key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0"}
 										alt={loc.name}
 									/>
 								</Carousel.Item>

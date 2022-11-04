@@ -2,12 +2,13 @@ import React, { useLayoutEffect, useEffect, useState } from 'react';
 import '../css/Home.css';
 import '../css/Home2.css';
 import { Link } from 'react-router-dom';
-import Card2 from 'react-bootstrap/Card';
 import Helmet from 'react-helmet';
 import {
 	Card, CardImg, CardText, CardBody,
 	CardTitle, CardSubtitle, Button, Row, Col, Container
 } from 'reactstrap';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
 	const [pageLoaded, setPageLoaded] = useState(false);
@@ -19,13 +20,15 @@ const Home = () => {
 	//ComponentDidMount, render skyscanner last
 	useEffect(() => {
 		setPageLoaded(true);
+		AOS.init();
+		AOS.refresh();
 	}, [])
 
 
 	return (
 		<div className="homepage" id="home-top">
 			<section className="my-video-container home-section" id="section1">
-				<video className="my-fullscreen-video my-background" src="/assets/videos/homeLanding.mp4" alt="drone footage of Downtown Cincinnati" muted loop autoPlay></video>
+				<video className="my-fullscreen-video my-background" src="/assets/videos/homeLanding.mp4" alt="drone footage of Downtown Cincinnati" muted loop autoPlay playsinline></video>
 				<h1 className="text-white my-tagline">Welcome to Cincinnati
 				</h1>
 			</section>
@@ -84,7 +87,7 @@ const Home = () => {
 						<div className="row counters">
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="0" data-purecounter-end="302687" data-purecounter-duration="2.5" className="purecounter">302,687</span>
+								<span data-purecounter-start="0" data-purecounter-end="302687" data-purecounter-duration="1.75" className="purecounter">302,687</span>
 								<p>Population</p>
 							</div>
 
@@ -94,12 +97,12 @@ const Home = () => {
 							</div>
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="2022" data-purecounter-end="1788" data-purecounter-duration="1.5" className="purecounter">1788</span>
+								<span data-purecounter-start="2022" data-purecounter-end="1788" data-purecounter-duration="1.25" className="purecounter">1788</span>
 								<p>Year Founded</p>
 							</div>
 
 							<div className="col-lg-3 col-6 text-center">
-								<span data-purecounter-start="0" data-purecounter-end="80327" data-purecounter-duration="2" className="purecounter">80,327</span>
+								<span data-purecounter-start="0" data-purecounter-end="80327" data-purecounter-duration="1.5" className="purecounter">80,327</span>
 								<p>Jobs supported by tourism</p>
 							</div>
 
