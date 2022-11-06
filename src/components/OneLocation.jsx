@@ -62,19 +62,6 @@ const OneLocation = () => {
 		getData();
 	}, [loc]);
 
-	// const getReviews = (reviewArr) => {
-	// 	return reviewArr.map(rvw => {
-	// 		return (
-	// 			<div>
-	// 				<p><img alt="author" src={rvw.profile_photo_url} style={{ maxHeight: '40px', maxWidth: '40px' }} /><a href={rvw.author_url}>{rvw.author_name}</a></p>
-	// 				<p>Rating: {rvw.rating}</p>
-	// 				<p>{rvw.relative_time_description}</p>
-	// 				<p>{rvw.text}</p>
-	// 			</div>
-	// 		)
-	// 	});
-	// }
-
 	const getHours = (hours) => {
 		if (typeof hours === 'object') {
 			return hours.weekday_text.map(line => {
@@ -107,22 +94,24 @@ const OneLocation = () => {
 		return (
 			<div>
 				<h1 className="my-carousel-title text-white text-center">{loc.name}</h1>
-				{/* <button onClick={() => navigate(-1)}>Go back</button> */}
-				<div>
-					<Carousel>
-						{mapsData.photos.map(photo => {
-							return (
-								<Carousel.Item interval={4000}>
-									<img
-										className="d-block my-car-img"
-										src={"https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photo_reference=" + photo.photo_reference + "&key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0"}
-										alt={loc.name}
-									/>
-								</Carousel.Item>
-							)
-						})}
-					</Carousel>
+				{/* <button className="my-back-button bi bi-arrow-left-short" onClick={() => navigate(-1)} /> */}
+				<div className="my-back-button d-flex align-items-center justify-content-center" onClick={() => navigate(-1)}>
+					<i className="bi bi-arrow-left-short" />
 				</div>
+
+				<Carousel>
+					{mapsData.photos.map(photo => {
+						return (
+							<Carousel.Item interval={4000}>
+								<img
+									className="d-block my-car-img"
+									src={"https://maps.googleapis.com/maps/api/place/photo?maxwidth=2560&photo_reference=" + photo.photo_reference + "&key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0"}
+									alt={loc.name}
+								/>
+							</Carousel.Item>
+						)
+					})}
+				</Carousel>
 				<div className="container">
 					<div className="d-flex flex-md-col flex-col py-3">
 						<div className="d-flex flex-column px-4" style={{ minWidth: '350px' }}>

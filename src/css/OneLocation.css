@@ -1,14 +1,30 @@
-/* -----CSS GRID----- */
-.my-cssgrid-container {
-	display: grid;
-	grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-		"my-address-cell my-address-cell my-map-cell my-map-cell my-map-cell my-map-cell"
-		"my-hours-cell my-description-cell my-description-cell my-description-cell my-contact-cell my-contact-cell";
+/* ---- Back Button ---- */
+.my-back-button {
+	position: fixed;
+	visibility: visible;
+	/* opacity: 0; */
+	left: 5px;
+	top: 70px;
+	z-index: 996;
+	background: #5fcf80;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	transition: all 0.4s;
 }
+
+.my-back-button i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+
+.my-back-button:hover {
+	background: #7ed899;
+	color: #fff;
+}
+
+@media (max-width: 962px) {}
 
 .my-carousel-title {
 	position: absolute;
@@ -57,20 +73,9 @@
 	overflow: hidden;
 }
 
-
-/* -----END CSS GRID ----- */
-
-.location-cards {
-	margin-top: 40px;
-}
-
 .card-big-shadow {
 	max-width: 320px;
 	position: relative;
-}
-
-.coloured-cards .card-loc {
-	margin-top: 30px;
 }
 
 .card-loc[data-radius="none"] {
@@ -100,7 +105,6 @@
 .card-loc[data-background="color"] .stats,
 .card-loc[data-background="color"] .category,
 .card-loc[data-background="color"] .description,
-/* .card-loc[data-background="color"] .content, */
 .card-loc[data-background="color"] .card-footer,
 .card-loc[data-background="color"] small,
 .card-loc[data-background="color"] .content a {
@@ -360,6 +364,8 @@ img {
 	min-width: 0;
 	word-wrap: break-word;
 	background-color: #fff;
+	/* Adds Safari support for background-clip */
+	-webkit-background-clip: border-box;
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: .25rem;
