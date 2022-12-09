@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import Card from "react-bootstrap/Card";
 import "../css/Teams.css";
 
 function Teams() {

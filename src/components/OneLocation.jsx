@@ -3,7 +3,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import axios from 'axios';
 import '../css/OneLocation.css';
-// import { GoogleMap, useJsApiLoader, Marker, useGoogleMap } from '@react-google-maps/api';
 import SinglePinMap from './subcomponents/SinglePinMap';
 
 const OneLocation = () => {
@@ -113,8 +112,8 @@ const OneLocation = () => {
 					})}
 				</Carousel>
 				<div className="container">
-					<div className="d-flex flex-md-col flex-col py-3">
-						<div className="d-flex flex-column px-4" style={{ minWidth: '350px' }}>
+					<div className="d-flex flex-md-row flex-column-reverse py-3">
+						<div className="d-flex flex-column px-4 align-items-center" style={{ minWidth: '350px' }}>
 							<div>
 								<div className="my-address-cell">
 									<div className="card-big-shadow">
