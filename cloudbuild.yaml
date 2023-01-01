@@ -4,6 +4,6 @@ steps:
     args:
       [
         "-c",
-        "gcloud config set app/cloud_build_timeout 1600 && npm run build && gcloud app deploy && node server",
+        "gcloud config set app/cloud_build_timeout 1600 && react-scripts build && gcloud app deploy && node server",
       ]
 timeout: "1600s"
