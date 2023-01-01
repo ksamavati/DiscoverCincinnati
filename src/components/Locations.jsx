@@ -17,7 +17,12 @@ const Locations = (props) => {
 
   // Runs once when compponent renders, and again when you toggle category
   useEffect(() => {
-    // if running on Heroku, do a backend call
+    console.log("All Environment variables:");
+    console.log("NODE_ENV:" + process.env.NODE_ENV);
+    console.log("REACT_APP_BACKEND_URL:" + process.env.REACT_APP_BACKEND_URL);
+    console.log("BACKEND_MAPS_API_KEY:" + process.env.BACKEND_MAPS_API_KEY);
+    console.log("REACT_APP_MAPS_API_KEY:" + process.env.REACT_APP_MAPS_API_KEY);
+
     let path = process.env.REACT_APP_BACKEND_URL + "/locationsdb/";
 
     if (cat === "" || cat === undefined) {

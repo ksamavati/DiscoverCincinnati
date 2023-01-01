@@ -22,10 +22,7 @@ const center = {
 };
 
 function MapElement() {
-  let apiKey =
-    process.env.NODE_ENV === "development"
-      ? process.env.REACT_APP_DEV_MAPS_API_KEY
-      : process.env.REACT_APP_LIVE_MAPS_API_KEY;
+  let apiKey = process.env.REACT_APP_MAPS_API_KEY;
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
@@ -37,26 +34,14 @@ function MapElement() {
 
   // Runs once at page load
   useEffect(() => {
-    if (process.env.NODE_ENV === "development") {
-      axios
-        .get(process.env.REACT_APP_BACKEND_URL + "/locationsdb/")
-        .then((response) => {
-          setLocArr(response.data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    } else {
-      // If no category, load all locations
-      axios
-        .get("/locationsdb/")
-        .then((response) => {
-          setLocArr(response.data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    }
+    axios
+      .get(process.env.REACT_APP_BACKEND_URL + "/locationsdb/")
+      .then((response) => {
+        setLocArr(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
 
   // const onLoad = React.useCallback(function callback(map) {

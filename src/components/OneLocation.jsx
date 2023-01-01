@@ -11,14 +11,9 @@ const OneLocation = () => {
   const navigate = useNavigate();
   const { loc } = location.state;
   const httpRegex = /http(s)?(:)?(\/\/)?|(\/\/)?(www\.)?/g;
-  const backendURL =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:5000/googleplacesapi/"
-      : "https://www.discovercinci.com/googleplacesapi/";
-  const mapsApiKey =
-    process.env.NODE_ENV === "development"
-      ? process.env.REACT_APP_DEV_MAPS_API_KEY
-      : process.env.REACT_APP_LIVE_MAPS_API_KEY;
+  const backendPlacesURL =
+    process.env.REACT_APP_BACKEND_URL + "/googleplacesapi/";
+  const mapsApiKey = process.env.REACT_APP_MAPS_API_KEY;
 
   // Runs once when compponent renders, equivalent to ComponentDidMount
   // This will call Google Maps API
@@ -26,7 +21,7 @@ const OneLocation = () => {
     //get Place ID
     var config1 = {
       method: "get",
-      url: backendURL + loc.name,
+      url: backendPlacesURL + loc.name,
       headers: {
         Accept: "application/json",
       },
@@ -40,7 +35,7 @@ const OneLocation = () => {
       .catch(function (error) {
         console.log(error);
       });
-  }, [loc, backendURL]);
+  }, [loc, backendPlacesURL]);
 
   const getHours = (hours) => {
     if (typeof hours === "object") {
