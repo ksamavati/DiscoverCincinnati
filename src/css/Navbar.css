@@ -1,0 +1,38 @@
+/* .dclogo {
+	font-family: 'Catamaran';
+	font-weight: 300 !important;
+	letter-spacing: 0.05em;
+}
+
+.dclogo b {
+	font-weight: 900 !important;
+} */
+
+.navbar {
+	/* min-height: 50px; */
+	font-size: 13pt;
+}
+
+.navbar-brand {
+	font-size: 30px !important;
+	padding: 0;
+}
+
+@media (max-width: 480px) {
+	.navbar-brand {
+		font-size: 5vw !important;
+		padding: 0;
+	}
+}
+
+.subnav-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.my-navbar {
+	position: absolute;
+	left: 0;
+	top: 0;
+}

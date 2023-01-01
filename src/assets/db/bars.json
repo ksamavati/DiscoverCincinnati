@@ -1,0 +1,817 @@
+[
+	{
+		"id": "tpwK1Ece1gGT-gOQZ1FOtg",
+		"alias": "somerset-bar-cincinnati",
+		"name": "Somerset Bar",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YHksuOC9kkRMDnPkxexKeg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/somerset-bar-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 65,
+		"categories": [
+			{
+				"alias": "beergardens",
+				"title": "Beer Gardens"
+			},
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11389848438088,
+			"longitude": -84.51364099999999
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "139 E McMicken Ave",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"139 E McMicken Ave",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132705982",
+		"display_phone": "(513) 270-5982",
+		"distance": 1538.023256282832
+	},
+	{
+		"id": "q2gh1b6GJ6-tb0eZ3QhCBA",
+		"alias": "overlook-lodge-a-rustic-watering-hole-cincinnati",
+		"name": "Overlook Lodge: A Rustic Watering Hole",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yR-bFib15pRD07fONw0dLg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/overlook-lodge-a-rustic-watering-hole-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 131,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "lounges",
+				"title": "Lounges"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1821476016047,
+			"longitude": -84.4280237353492
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "6083 Montgomery Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45213",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"6083 Montgomery Rd",
+				"Cincinnati, OH 45213"
+			]
+		},
+		"phone": "+15133510035",
+		"display_phone": "(513) 351-0035",
+		"distance": 9176.988209355653
+	},
+	{
+		"id": "6XIxWKXVzYowhvWWACJAGQ",
+		"alias": "ghost-baby-over-the-rhine",
+		"name": "Ghost Baby",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-ONODQD3LPw2_t7PWgP21g/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/ghost-baby-over-the-rhine?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 116,
+		"categories": [
+			{
+				"alias": "bars",
+				"title": "Bars"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.10999,
+			"longitude": -84.51582
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$$",
+		"location": {
+			"address1": "1314 Republic St",
+			"address2": null,
+			"address3": null,
+			"city": "Over-the-Rhine",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1314 Republic St",
+				"Over-the-Rhine, OH 45202"
+			]
+		},
+		"phone": "+15133815333",
+		"display_phone": "(513) 381-5333",
+		"distance": 2029.7310376545404
+	},
+	{
+		"id": "udW_Z5lDAHqh23FswJcrUA",
+		"alias": "alice-cincinnati",
+		"name": "Alice",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/bgZlnpMEHcFZZ-jMj30IBg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/alice-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 10,
+		"categories": [
+			{
+				"alias": "bars",
+				"title": "Bars"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1122,
+			"longitude": -84.51212
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1432 Main St",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1432 Main St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134808118",
+		"display_phone": "(513) 480-8118",
+		"distance": 1672.8602298499318
+	},
+	{
+		"id": "2e__GNU4RXv8II9K5hFKNw",
+		"alias": "tiki-tiki-bang-bang-cincinnati",
+		"name": "Tiki Tiki Bang Bang",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BfwDHixkmwYkKsg1VGlQgw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/tiki-tiki-bang-bang-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 8,
+		"categories": [
+			{
+				"alias": "tikibars",
+				"title": "Tiki Bars"
+			}
+		],
+		"rating": 5.0,
+		"coordinates": {
+			"latitude": 39.12561,
+			"longitude": -84.48844
+		},
+		"transactions": [],
+		"location": {
+			"address1": "965 E McMillan St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45206",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"965 E McMillan St",
+				"Cincinnati, OH 45206"
+			]
+		},
+		"phone": "+15135599500",
+		"display_phone": "(513) 559-9500",
+		"distance": 1591.6247268424383
+	},
+	{
+		"id": "G_n_kGKthYVWc8ek_bg57g",
+		"alias": "mecca-cincinnati",
+		"name": "Mecca",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pyvzcNa7SmBoQgYeP43IaQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/mecca-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 74,
+		"categories": [
+			{
+				"alias": "bars",
+				"title": "Bars"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.11191,
+			"longitude": -84.5143
+		},
+		"transactions": [],
+		"price": "$",
+		"location": {
+			"address1": "1429 Walnut St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1429 Walnut St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134219900",
+		"display_phone": "(513) 421-9900",
+		"distance": 1766.624089477679
+	},
+	{
+		"id": "jP4y8Y1OrasQ-PEOdsvkFQ",
+		"alias": "lost-and-found-otr-cincinnati",
+		"name": "Lost & Found OTR",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Po28lX3E6P50Qr3xG0y0FA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/lost-and-found-otr-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 54,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "sandwiches",
+				"title": "Sandwiches"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11117,
+			"longitude": -84.51453
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "22 E 14th St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"22 E 14th St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15138348441",
+		"display_phone": "(513) 834-8441",
+		"distance": 1843.339670486366
+	},
+	{
+		"id": "KW8Pls0njYVCjCHzf3wcVw",
+		"alias": "barbar-cincinnati",
+		"name": "barbar",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iIHMxlOcQDcuyUOb175K-A/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/barbar-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 7,
+		"categories": [
+			{
+				"alias": "divebars",
+				"title": "Dive Bars"
+			}
+		],
+		"rating": 5.0,
+		"coordinates": {
+			"latitude": 39.11454,
+			"longitude": -84.51829
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1709 Race St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1709 Race St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 1676.9677697312216
+	},
+	{
+		"id": "uTTHOxgDAjPfpM8i9nhBzA",
+		"alias": "sundry-and-vice-cincinnati",
+		"name": "Sundry and Vice",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1DwbawfcEMwoDfJ98f83Gw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/sundry-and-vice-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 272,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1094214222805,
+			"longitude": -84.5159993768337
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "18 W 13th St",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"18 W 13th St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15137218423",
+		"display_phone": "(513) 721-8423",
+		"distance": 2075.82487811266
+	},
+	{
+		"id": "SNv-hD0GwzjAj5mPMs8bUg",
+		"alias": "cobblestone-otr-cincinnati-2",
+		"name": "Cobblestone OTR",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/XQGoVYT3cow3zDQiKCTXuA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cobblestone-otr-cincinnati-2?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 43,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "beerbar",
+				"title": "Beer Bar"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1079348164694,
+			"longitude": -84.5162757014967
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1132 Race St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1132 Race St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132737675",
+		"display_phone": "(513) 273-7675",
+		"distance": 2238.1269214811746
+	},
+	{
+		"id": "I6vuSZPPcM9_jdOZDgw2HQ",
+		"alias": "alcove-by-madtree-cincinnati",
+		"name": "Alcove By MadTree",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/g2HoDVzcJQdZePgL7DxMFg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/alcove-by-madtree-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 75,
+		"categories": [
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			},
+			{
+				"alias": "beerbar",
+				"title": "Beer Bar"
+			},
+			{
+				"alias": "newamerican",
+				"title": "American (New)"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1112895,
+			"longitude": -84.5151528
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "1410 Vine St",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1410 Vine St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15133715700",
+		"display_phone": "(513) 371-5700",
+		"distance": 1855.975818568866
+	},
+	{
+		"id": "8Dakk8Qp02Fzf9SnY3j4Og",
+		"alias": "comfort-station-cincinnati-2",
+		"name": "Comfort Station",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/a6qLqROVkXmlGx-mjIr6dA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/comfort-station-cincinnati-2?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 77,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "beer_and_wine",
+				"title": "Beer, Wine & Spirits"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.125858,
+			"longitude": -84.4908964
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "793 E McMillan St",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45206",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"793 E McMillan St",
+				"Cincinnati, OH 45206"
+			]
+		},
+		"phone": "+16192791843",
+		"display_phone": "(619) 279-1843",
+		"distance": 1378.0043573107632
+	},
+	{
+		"id": "BueTBaJu0_a170ZY9lEZDg",
+		"alias": "saeso-cincinnati-2",
+		"name": "Saeso",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NFC5r5OCFpxs6PAuPUskdw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/saeso-cincinnati-2?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 22,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.109737,
+			"longitude": -84.509912
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1208 Sycamore St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1208 Sycamore St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 1902.4445913164345
+	},
+	{
+		"id": "23rCFPjDYDj6Ge7mwXknEw",
+		"alias": "la-ofrenda-cincinnati",
+		"name": "La Ofrenda",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Uh3Am5sUVrZOSa3uEImcWA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/la-ofrenda-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 36,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.116837,
+			"longitude": -84.518309
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "30 Findlay St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"30 Findlay St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 1475.8793977395378
+	},
+	{
+		"id": "9uaR4cEwzNC9UCN4hbzRSQ",
+		"alias": "16-bit-bar-arcade-cincinnati-4",
+		"name": "16-Bit Bar+Arcade",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IDH9i2RW3iVV7Y7ZWpf85w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/16-bit-bar-arcade-cincinnati-4?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 332,
+		"categories": [
+			{
+				"alias": "bars",
+				"title": "Bars"
+			},
+			{
+				"alias": "arcades",
+				"title": "Arcades"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.10851,
+			"longitude": -84.51136
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "1124 Main St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1124 Main St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15139647746",
+		"display_phone": "(513) 964-7746",
+		"distance": 2058.0947859691323
+	},
+	{
+		"id": "JBnlgJp6It75uFRTxlDd1g",
+		"alias": "blind-lemon-cincinnati",
+		"name": "Blind Lemon",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/P5RzleHeFxz6aCy9sQX67Q/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/blind-lemon-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 190,
+		"categories": [
+			{
+				"alias": "wine_bars",
+				"title": "Wine Bars"
+			},
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "musicvenues",
+				"title": "Music Venues"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.10948,
+			"longitude": -84.49752
+		},
+		"transactions": [],
+		"price": "$$",
+		"location": {
+			"address1": "936 Hatch St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"936 Hatch St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132413885",
+		"display_phone": "(513) 241-3885",
+		"distance": 2079.37570606847
+	},
+	{
+		"id": "O5TLKiIqOzLB2NZq8IbHMQ",
+		"alias": "cinema-otr-cincinnati",
+		"name": "Cinema OTR",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/E4eoaoKxuzOL7DRHyje-RA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cinema-otr-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 4,
+		"categories": [
+			{
+				"alias": "danceclubs",
+				"title": "Dance Clubs"
+			},
+			{
+				"alias": "lounges",
+				"title": "Lounges"
+			}
+		],
+		"rating": 2.0,
+		"coordinates": {
+			"latitude": 39.11224,
+			"longitude": -84.51605
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1517 Vine St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1517 Vine St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 1786.9131225422434
+	},
+	{
+		"id": "YgjPAvesypKY4S7cv-diUQ",
+		"alias": "copper-and-flame-cincinnati",
+		"name": "Copper & Flame",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/orYKzC7BOU0BwOheQ1Ln6w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/copper-and-flame-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 95,
+		"categories": [
+			{
+				"alias": "cocktailbars",
+				"title": "Cocktail Bars"
+			},
+			{
+				"alias": "beerbar",
+				"title": "Beer Bar"
+			},
+			{
+				"alias": "asianfusion",
+				"title": "Asian Fusion"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.10767,
+			"longitude": -84.51494
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "1115 Vine St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1115 Vine St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15138643430",
+		"display_phone": "(513) 864-3430",
+		"distance": 2228.6518098176653
+	},
+	{
+		"id": "St5WoDWtotcjU6BGTzDJ0w",
+		"alias": "knockback-nats-cincinnati",
+		"name": "Knockback Nats",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Za4YgzSrfPRvc2zJLrIWOA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/knockback-nats-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 341,
+		"categories": [
+			{
+				"alias": "sportsbars",
+				"title": "Sports Bars"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.1038398742676,
+			"longitude": -84.5141983032227
+		},
+		"transactions": [
+			"delivery"
+		],
+		"price": "$",
+		"location": {
+			"address1": "10 W 7th St",
+			"address2": null,
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"10 W 7th St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136211000",
+		"display_phone": "(513) 621-1000",
+		"distance": 2609.6244588814775
+	},
+	{
+		"id": "tOG0dmwZ0JkQXg6CPdoPXg",
+		"alias": "oddfellows-liquor-bar-cincinnati",
+		"name": "Oddfellows Liquor Bar",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ZadwszVXwzdHDQdGHYmQBg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/oddfellows-liquor-bar-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 17,
+		"categories": [
+			{
+				"alias": "bars",
+				"title": "Bars"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.11804784,
+			"longitude": -84.52042007
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2014 Elm St",
+			"address2": "",
+			"address3": null,
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"2014 Elm St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132580475",
+		"display_phone": "(513) 258-0475",
+		"distance": 1514.9789731005485
+	}
+]

@@ -1,0 +1,787 @@
+[
+	{
+		"id": "ZXsB8D5OpQJLIcylii8Sow",
+		"alias": "hyde-park-mushroom-house-cincinnati",
+		"name": "Hyde Park Mushroom House",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/CRZtvSG56Tqtxtc3IWPeJA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/hyde-park-mushroom-house-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 10,
+		"categories": [
+			{
+				"alias": "landmarks",
+				"title": "Landmarks & Historical Buildings"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.14114,
+			"longitude": -84.4237
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3331 Erie Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45208",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3331 Erie Ave",
+				"Cincinnati, OH 45208"
+			]
+		},
+		"phone": "",
+		"display_phone": "",
+		"distance": 7348.416468433116
+	},
+	{
+		"id": "LKwKKQdXP625vZOIfPsqyw",
+		"alias": "american-sign-museum-cincinnati",
+		"name": "American Sign Museum",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1ZYzS0gdybd70gcZ1oJtIA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/american-sign-museum-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 194,
+		"categories": [
+			{
+				"alias": "museums",
+				"title": "Museums"
+			},
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			},
+			{
+				"alias": "historicaltours",
+				"title": "Historical Tours"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1435784,
+			"longitude": -84.5399494
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1330 Monmouth Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45225",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1330 Monmouth Ave",
+				"Cincinnati, OH 45225"
+			]
+		},
+		"phone": "+15135416366",
+		"display_phone": "(513) 541-6366",
+		"distance": 3418.5133155030817
+	},
+	{
+		"id": "UFLsmFvsT7nMcEP3CJYqHA",
+		"alias": "carew-tower-observation-deck-cincinnati",
+		"name": "Carew Tower Observation Deck",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/FrnT5LA0FV8EN7XZfiGQxw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/carew-tower-observation-deck-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 94,
+		"categories": [
+			{
+				"alias": "observatories",
+				"title": "Observatories"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.10072,
+			"longitude": -84.51303
+		},
+		"transactions": [],
+		"location": {
+			"address1": "441 Vine St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"441 Vine St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15135799735",
+		"display_phone": "(513) 579-9735",
+		"distance": 2926.702996644288
+	},
+	{
+		"id": "2IHn4EqzI20kwQUKcd9qnA",
+		"alias": "fountain-square-cincinnati",
+		"name": "Fountain Square",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Ykmx4-4FzIodpk93pXSimA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/fountain-square-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 175,
+		"categories": [
+			{
+				"alias": "musicvenues",
+				"title": "Music Venues"
+			},
+			{
+				"alias": "landmarks",
+				"title": "Landmarks & Historical Buildings"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1018981933594,
+			"longitude": -84.5130233764648
+		},
+		"transactions": [],
+		"price": "$",
+		"location": {
+			"address1": "520 Vine St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"520 Vine St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136214400",
+		"display_phone": "(513) 621-4400",
+		"distance": 2817.2951842819502
+	},
+	{
+		"id": "z_AaPHYvJ_qc2I61x4q0sg",
+		"alias": "krohn-conservatory-cincinnati",
+		"name": "Krohn Conservatory",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/V4A2pBAbPSzoCgOrizOeKA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/krohn-conservatory-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 128,
+		"categories": [
+			{
+				"alias": "gardens",
+				"title": "Botanical Gardens"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1176033,
+			"longitude": -84.4885025
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1501 Eden Park Dr",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1501 Eden Park Dr",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134214086",
+		"display_phone": "(513) 421-4086",
+		"distance": 1942.9633267573795
+	},
+	{
+		"id": "TJ0cQZ0jZ21-6wdEO_VGxw",
+		"alias": "cincinnati-zoo-cincinnati",
+		"name": "Cincinnati Zoo",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vH0r1AknOSDMz9JFDCQ1qg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cincinnati-zoo-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 592,
+		"categories": [
+			{
+				"alias": "zoos",
+				"title": "Zoos"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1428718566895,
+			"longitude": -84.5104751586914
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3400 Vine St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45220",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3400 Vine St",
+				"Cincinnati, OH 45220"
+			]
+		},
+		"phone": "+15132814700",
+		"display_phone": "(513) 281-4700",
+		"distance": 1709.4678579021427
+	},
+	{
+		"id": "X82tC7AjNpG8OJNpKTjh5A",
+		"alias": "smale-riverfront-park-cincinnati",
+		"name": "Smale Riverfront Park",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/K8n721yy_4Uv2GcpdcKbeg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/smale-riverfront-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 125,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 5.0,
+		"coordinates": {
+			"latitude": 39.09394,
+			"longitude": -84.51693
+		},
+		"transactions": [],
+		"location": {
+			"address1": "W Mehring Way",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"W Mehring Way",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15132411774",
+		"display_phone": "(513) 241-1774",
+		"distance": 3726.8757404680673
+	},
+	{
+		"id": "Vp9c3q06Ik3u4owXDmPPog",
+		"alias": "cincinnati-museum-center-at-union-terminal-cincinnati",
+		"name": "Cincinnati Museum Center at Union Terminal",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2-zlXkcLXTtud8QeHCZbMw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cincinnati-museum-center-at-union-terminal-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 241,
+		"categories": [
+			{
+				"alias": "venues",
+				"title": "Venues & Event Spaces"
+			},
+			{
+				"alias": "museums",
+				"title": "Museums"
+			},
+			{
+				"alias": "movietheaters",
+				"title": "Cinema"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.110023,
+			"longitude": -84.537783
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1301 Western Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45203",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1301 Western Ave",
+				"Cincinnati, OH 45203"
+			]
+		},
+		"phone": "+15132877000",
+		"display_phone": "(513) 287-7000",
+		"distance": 3249.5570694855564
+	},
+	{
+		"id": "sd8gCHNE7GjnIiTos6ExGQ",
+		"alias": "cincinnati-art-museum-cincinnati",
+		"name": "Cincinnati Art Museum",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/-EoPmVYtnfQZh7eWvBTbIg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cincinnati-art-museum-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 264,
+		"categories": [
+			{
+				"alias": "artmuseums",
+				"title": "Art Museums"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1130338,
+			"longitude": -84.4974673
+		},
+		"transactions": [],
+		"location": {
+			"address1": "953 Eden Park Dr",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"953 Eden Park Dr",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136392995",
+		"display_phone": "(513) 639-2995",
+		"distance": 1654.4284664492272
+	},
+	{
+		"id": "tNrExyfz-4uHgCrhx8rFPA",
+		"alias": "coney-island-cincinnati-5",
+		"name": "Coney Island",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/u83bo-M-bqtqhHjHDqbsYg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/coney-island-cincinnati-5?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 99,
+		"categories": [
+			{
+				"alias": "amusementparks",
+				"title": "Amusement Parks"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.054645,
+			"longitude": -84.418661
+		},
+		"transactions": [],
+		"location": {
+			"address1": "6201 Kellogg Ave",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45230",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"6201 Kellogg Ave",
+				"Cincinnati, OH 45230"
+			]
+		},
+		"phone": "+15132328230",
+		"display_phone": "(513) 232-8230",
+		"distance": 11048.695212920735
+	},
+	{
+		"id": "iHC5tgrjrkQm_Anv0RpdNw",
+		"alias": "eden-park-cincinnati",
+		"name": "Eden Park",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Xg7pqCjJ6SU56e0EOyTlMw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/eden-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 82,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1146101,
+			"longitude": -84.4915454
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1198 Eden Park Dr",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1198 Eden Park Dr",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15133524080",
+		"display_phone": "(513) 352-4080",
+		"distance": 1748.5287929254857
+	},
+	{
+		"id": "wWI9IoJQC0XBuJ073mTYBg",
+		"alias": "the-place-cincinnati",
+		"name": "The Place",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0Mgsjc3KBWX5vJX_D5ggUw/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/the-place-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 21,
+		"categories": [
+			{
+				"alias": "amusementparks",
+				"title": "Amusement Parks"
+			},
+			{
+				"alias": "skatingrinks",
+				"title": "Skating Rinks"
+			},
+			{
+				"alias": "eventplanning",
+				"title": "Party & Event Planning"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.21874,
+			"longitude": -84.58778
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3211 Lina Pl",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45239",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3211 Lina Pl",
+				"Cincinnati, OH 45239"
+			]
+		},
+		"phone": "+15135222424",
+		"display_phone": "(513) 522-2424",
+		"distance": 12405.288525435653
+	},
+	{
+		"id": "F01dHsT9uKzweVcdMkCnQA",
+		"alias": "newport-aquarium-newport",
+		"name": "Newport Aquarium",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/o3eT4qVY_reiOmDPvAwLxg/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/newport-aquarium-newport?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 399,
+		"categories": [
+			{
+				"alias": "aquariums",
+				"title": "Aquariums"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.09691,
+			"longitude": -84.49352
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1 Dave Cowens Dr",
+			"address2": "",
+			"address3": "",
+			"city": "Newport",
+			"zip_code": "41071",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"1 Dave Cowens Dr",
+				"Newport, KY 41071"
+			]
+		},
+		"phone": "+18592617444",
+		"display_phone": "(859) 261-7444",
+		"distance": 3503.6901395240934
+	},
+	{
+		"id": "8zfx-A1gvJbbbXNYHbh9aQ",
+		"alias": "washington-park-cincinnati",
+		"name": "Washington Park",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/IMs9WzamKYi3lPjrz7MDIA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/washington-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 184,
+		"categories": [
+			{
+				"alias": "parks",
+				"title": "Parks"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.1094803821762,
+			"longitude": -84.5175473312134
+		},
+		"transactions": [],
+		"location": {
+			"address1": "1230 Elm St",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"1230 Elm St",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15136214400",
+		"display_phone": "(513) 621-4400",
+		"distance": 2124.357892368122
+	},
+	{
+		"id": "BTkDr66b8qT1A3uEHiMqWg",
+		"alias": "cincinnati-playhouse-in-the-park-cincinnati",
+		"name": "Cincinnati Playhouse In The Park",
+		"image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-eAaGTKNFllx9jv0PCoqJQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/cincinnati-playhouse-in-the-park-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 65,
+		"categories": [
+			{
+				"alias": "theater",
+				"title": "Performing Arts"
+			}
+		],
+		"rating": 4.5,
+		"coordinates": {
+			"latitude": 39.11118,
+			"longitude": -84.49772
+		},
+		"transactions": [],
+		"location": {
+			"address1": "962 Mt Adams Dr",
+			"address2": "",
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45202",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"962 Mt Adams Dr",
+				"Cincinnati, OH 45202"
+			]
+		},
+		"phone": "+15134213888",
+		"display_phone": "(513) 421-3888",
+		"distance": 1882.6452762813171
+	},
+	{
+		"id": "ze_9FHHOp4yGG1gOM1hUyQ",
+		"alias": "uss-nightmare-newport",
+		"name": "USS Nightmare",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/aRaCGwFxqVeK1khu0t_R4Q/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/uss-nightmare-newport?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 34,
+		"categories": [
+			{
+				"alias": "amusementparks",
+				"title": "Amusement Parks"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.093497,
+			"longitude": -84.500821
+		},
+		"transactions": [],
+		"location": {
+			"address1": "101 Riverboat Row",
+			"address2": "",
+			"address3": "",
+			"city": "Newport",
+			"zip_code": "41071",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"101 Riverboat Row",
+				"Newport, KY 41071"
+			]
+		},
+		"phone": "+18597402293",
+		"display_phone": "(859) 740-2293",
+		"distance": 3726.430596625177
+	},
+	{
+		"id": "jvt4ZY8KNX5CkWYQDCvmhg",
+		"alias": "creation-museum-petersburg-3",
+		"name": "Creation Museum",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/U_t9T-cMGqWiU_tcw5dy7A/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/creation-museum-petersburg-3?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 243,
+		"categories": [
+			{
+				"alias": "museums",
+				"title": "Museums"
+			}
+		],
+		"rating": 4.0,
+		"coordinates": {
+			"latitude": 39.0858805275,
+			"longitude": -84.7830553805
+		},
+		"transactions": [],
+		"location": {
+			"address1": "2800 Bullittsburg Church Rd",
+			"address2": "",
+			"address3": "",
+			"city": "Petersburg",
+			"zip_code": "41080",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"2800 Bullittsburg Church Rd",
+				"Petersburg, KY 41080"
+			]
+		},
+		"phone": "+18885824253",
+		"display_phone": "(888) 582-4253",
+		"distance": 24261.48363779478
+	},
+	{
+		"id": "6qjI0NA3q02ezrzZ745xgw",
+		"alias": "b-b-riverboats-newport",
+		"name": "B B Riverboats",
+		"image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sPhH_zDL-KrQ0svnrZ15AQ/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/b-b-riverboats-newport?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 142,
+		"categories": [
+			{
+				"alias": "boating",
+				"title": "Boating"
+			},
+			{
+				"alias": "tours",
+				"title": "Tours"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.0929138431161,
+			"longitude": -84.501731384493
+		},
+		"transactions": [],
+		"location": {
+			"address1": "101 Riverboat Row",
+			"address2": "",
+			"address3": "",
+			"city": "Newport",
+			"zip_code": "41071",
+			"country": "US",
+			"state": "KY",
+			"display_address": [
+				"101 Riverboat Row",
+				"Newport, KY 41071"
+			]
+		},
+		"phone": "+18002618586",
+		"display_phone": "(800) 261-8586",
+		"distance": 3780.700617529787
+	},
+	{
+		"id": "_KmKtEht59jJWVlWbINyxg",
+		"alias": "urban-air-adventure-park-cincinnati-cincinnati",
+		"name": "Urban Air Trampoline and Adventure Park",
+		"image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1UDVkjbiyyi8LL2We4hzmA/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/urban-air-adventure-park-cincinnati-cincinnati?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 14,
+		"categories": [
+			{
+				"alias": "amusementparks",
+				"title": "Amusement Parks"
+			},
+			{
+				"alias": "trampoline",
+				"title": "Trampoline Parks"
+			}
+		],
+		"rating": 2.5,
+		"coordinates": {
+			"latitude": 39.16131,
+			"longitude": -84.42278
+		},
+		"transactions": [],
+		"location": {
+			"address1": "3321 Alamo Ave",
+			"address2": null,
+			"address3": "",
+			"city": "Cincinnati",
+			"zip_code": "45209",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"3321 Alamo Ave",
+				"Cincinnati, OH 45209"
+			]
+		},
+		"phone": "+15133223130",
+		"display_phone": "(513) 322-3130",
+		"distance": 8207.982148559768
+	},
+	{
+		"id": "4Bs2OjZ8LLex6D6dVJEHJw",
+		"alias": "the-web-extreme-entertainment-west-chester",
+		"name": "The WEB Extreme Entertainment",
+		"image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NmYD9z0QbokZWDYan5AS1w/o.jpg",
+		"is_closed": false,
+		"url": "https://www.yelp.com/biz/the-web-extreme-entertainment-west-chester?adjust_creative=0peDlMluAC0JqOGWSfpoIg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0peDlMluAC0JqOGWSfpoIg",
+		"review_count": 48,
+		"categories": [
+			{
+				"alias": "arcades",
+				"title": "Arcades"
+			},
+			{
+				"alias": "lasertag",
+				"title": "Laser Tag"
+			},
+			{
+				"alias": "gokarts",
+				"title": "Go Karts"
+			}
+		],
+		"rating": 3.5,
+		"coordinates": {
+			"latitude": 39.3710745967157,
+			"longitude": -84.3871450859833
+		},
+		"transactions": [],
+		"location": {
+			"address1": "7172 Cincinnati Dayton Rd",
+			"address2": null,
+			"address3": "",
+			"city": "West Chester",
+			"zip_code": "45069",
+			"country": "US",
+			"state": "OH",
+			"display_address": [
+				"7172 Cincinnati Dayton Rd",
+				"West Chester, OH 45069"
+			]
+		},
+		"phone": "+15138602882",
+		"display_phone": "(513) 860-2882",
+		"distance": 29063.878947380985
+	}
+]

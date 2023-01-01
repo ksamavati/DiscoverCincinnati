@@ -1,0 +1,309 @@
+{
+	"html_attributions": [],
+	"result": {
+		"address_components": [
+			{
+				"long_name": "1501",
+				"short_name": "1501",
+				"types": [
+					"street_number"
+				]
+			},
+			{
+				"long_name": "Central Parkway",
+				"short_name": "Central Pkwy",
+				"types": [
+					"route"
+				]
+			},
+			{
+				"long_name": "West End",
+				"short_name": "West End",
+				"types": [
+					"neighborhood",
+					"political"
+				]
+			},
+			{
+				"long_name": "Cincinnati",
+				"short_name": "Cincinnati",
+				"types": [
+					"locality",
+					"political"
+				]
+			},
+			{
+				"long_name": "Hamilton County",
+				"short_name": "Hamilton County",
+				"types": [
+					"administrative_area_level_2",
+					"political"
+				]
+			},
+			{
+				"long_name": "Ohio",
+				"short_name": "OH",
+				"types": [
+					"administrative_area_level_1",
+					"political"
+				]
+			},
+			{
+				"long_name": "United States",
+				"short_name": "US",
+				"types": [
+					"country",
+					"political"
+				]
+			},
+			{
+				"long_name": "45214",
+				"short_name": "45214",
+				"types": [
+					"postal_code"
+				]
+			}
+		],
+		"adr_address": "<span class=\"street-address\">1501 Central Pkwy</span>, <span class=\"locality\">Cincinnati</span>, <span class=\"region\">OH</span> <span class=\"postal-code\">45214</span>, <span class=\"country-name\">USA</span>",
+		"business_status": "OPERATIONAL",
+		"formatted_address": "1501 Central Pkwy, Cincinnati, OH 45214, USA",
+		"formatted_phone_number": "(513) 977-5435",
+		"geometry": {
+			"location": {
+				"lat": 39.11109719999999,
+				"lng": -84.522255
+			},
+			"viewport": {
+				"northeast": {
+					"lat": 39.1129469802915,
+					"lng": -84.5207809697085
+				},
+				"southwest": {
+					"lat": 39.1102490197085,
+					"lng": -84.5234789302915
+				}
+			}
+		},
+		"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/stadium-71.png",
+		"icon_background_color": "#4DB546",
+		"icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/stadium_pinlet",
+		"international_phone_number": "+1 513-977-5435",
+		"name": "TQL Stadium",
+		"opening_hours": {
+			"open_now": true,
+			"periods": [
+				{
+					"close": {
+						"day": 1,
+						"time": "1700"
+					},
+					"open": {
+						"day": 1,
+						"time": "0900"
+					}
+				},
+				{
+					"close": {
+						"day": 2,
+						"time": "1700"
+					},
+					"open": {
+						"day": 2,
+						"time": "0900"
+					}
+				},
+				{
+					"close": {
+						"day": 3,
+						"time": "1700"
+					},
+					"open": {
+						"day": 3,
+						"time": "0900"
+					}
+				},
+				{
+					"close": {
+						"day": 4,
+						"time": "1700"
+					},
+					"open": {
+						"day": 4,
+						"time": "0900"
+					}
+				},
+				{
+					"close": {
+						"day": 5,
+						"time": "1700"
+					},
+					"open": {
+						"day": 5,
+						"time": "0900"
+					}
+				}
+			],
+			"weekday_text": [
+				"Monday: 9:00 AM – 5:00 PM",
+				"Tuesday: 9:00 AM – 5:00 PM",
+				"Wednesday: 9:00 AM – 5:00 PM",
+				"Thursday: 9:00 AM – 5:00 PM",
+				"Friday: 9:00 AM – 5:00 PM",
+				"Saturday: Closed",
+				"Sunday: Closed"
+			]
+		},
+		"photos": [
+			{
+				"height": 2252,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/113238371144896828360\">Thadd F.</a>"
+				],
+				"photo_reference": "AeJbb3fd6qJydoV2E_pAjFKa2i4D-wrGUSmwDxYfJ0m_ol9dOQKeDDcwOIL57wF3590LpFP6XJjeb6csJm7u27Ce_KqlZL3DOlozUvqhwtJZ7oFl1BN5-wCA11X-kkvEaorfeye1uyVIumzbd4EhPRakGZKWe7YolEG6kHDbbGWriTEOnHWb",
+				"width": 4000
+			},
+			{
+				"height": 2252,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/113238371144896828360\">Thadd F.</a>"
+				],
+				"photo_reference": "AeJbb3fJK1om9p7QfnB0e0rWU-ZAIJ_52brxqbRs1bNRCWzWTl_JlTitWn6IXNO028-yGZexFIuVxq7uysKGUZsbbLE_Zkpo5mMJaJm7MVZVqyHVTK3csKLLAiUKpuSuNzpjJ2w7xbGHSAVWMKOzycdqSFjORg7fQsAyhsyu_K82m7BYI366",
+				"width": 4000
+			},
+			{
+				"height": 2448,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/110325040222529774137\">Della Vanderpool</a>"
+				],
+				"photo_reference": "AeJbb3e06uJw6-1KTOw-Yz0BkrSxEe3VpQshdfObQdiHj41TQuVsQhJl7cV7iCfIOPX8FSE7CIR3rT3W_z2V1B5mgm31wBTLNRIPWryW3qBnfsXOiCU1tKyvdoxlM1Ki6iS147isjG4fIGEmStmG1f9Ujp3f-1TqOMIvTfMbPVydqpDez5wT",
+				"width": 3264
+			},
+			{
+				"height": 1729,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/114664933014871393091\">Katie May</a>"
+				],
+				"photo_reference": "AeJbb3dTzNZfzzS41wXwTs1kFqYt6pi-H_PMrecEsKyxYE7IPP7-h7dhhyoNH_xdRBiPylXrAvJhzbuIUdtaNFgi07soUUG1LzpCqQ7gWYJNSdccuk0XXTi96L1gOl-qzUSBu5n2i-TW5gRDNi8Ql77uIsrrov8MhapGgpYOLPX6eQCii32W",
+				"width": 1500
+			},
+			{
+				"height": 2268,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/113127801441186561646\">Adam West</a>"
+				],
+				"photo_reference": "AeJbb3c1tVhde8U6hKwWzY01i0EZ9PWkGzt3o7oiijqhNwQRkOlCbJ0GeGpOEFDu1eDe6RjW8vdoBe_F0TovLMZDSy5nfOCL1NdiNh4R9cNrzZQkxQTRNlwITYtzTuivavCXOe2znzjZhpigm7n0UHwwa50DFPlyFL2Jb_Hu9Pr96xT_Yn8X",
+				"width": 4032
+			},
+			{
+				"height": 3120,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/106627160959710507739\">Greg Reese</a>"
+				],
+				"photo_reference": "AeJbb3ea8zpoLTEAZ-r20je6McGP7_iMt4QJGmHB0VQsQLnJGL3oyFWjLxHQSrjBQy3Zf1eGVWIdvO4Lmo9bF6mYh5zf9KxJo3I5MEFBpe4f5fQPbJyUOXsX2x4jx0HO7KR_n563I9m4igBN50pAkJy4gqpldwYS2eM876Q664qh3fn-JWss",
+				"width": 4160
+			},
+			{
+				"height": 3024,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/100892809201721221227\">Dan Mejak</a>"
+				],
+				"photo_reference": "AeJbb3d7MikJhtSeHD_wg_4oKVHMLrmoq6mR3S2XKGLPq43RZJm3063CawU-FezW1hlr5OGw9abxZmAhgjeTW8fgrkKtT72ertHWiCaOhRqfpJJmB8gpKovze5qOF6LaXmxMaWnDta8Xqoq2uO5TJ5CiyxliyVlRKyZ38WFuGZtCjLIQtNhK",
+				"width": 4032
+			},
+			{
+				"height": 6936,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/107317892192527338382\">Keith Mitchell</a>"
+				],
+				"photo_reference": "AeJbb3chwvZlBuMj7_hqpn8ZmPgxNfyQLk87ZJW8W8oVNTM7UlIWO8Ml8g-nP24-UTCQNccqiACi43mIgKumB3Y1I2u07mONbd-qCRUefnap55wOfvcITJQh78rLyOr_-lGZjb7J8Wd03w5rWRHV37bEr9VMI-7dQo54M9VOFUgxA1qOe7i8",
+				"width": 9248
+			},
+			{
+				"height": 3024,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/105120090947343165144\">Adam Brooks</a>"
+				],
+				"photo_reference": "AeJbb3eDkoZ3XLQLlq_7olCFRJxM9qLTldPvafJJEKKRdBV5Fqrz15cGjJbbVRLPsKy2-ukm8jqCqMEYLEz-HvGbehYw3Ghqq3faYmtfxXHM24xLfy59AmfkntJeeyVbw73cv6dgEgYfuTxrJscg4ShLcUGE6cHI1oJ25yU_1z45HraVVBQ-",
+				"width": 4032
+			},
+			{
+				"height": 3120,
+				"html_attributions": [
+					"<a href=\"https://maps.google.com/maps/contrib/106993472742886199609\">its tst</a>"
+				],
+				"photo_reference": "AeJbb3fLsYMUromLr6AVLxrMh2RdIIjwujmjy8etPjJpHPiMDD0vWGgDqE_PgQqfcciKY4WpzZzxs82chioLj9mQgNV1AoXCbu-Ct8ns1qvxHo0Id6ggo0va-Gkd5Tvo-gW4SZ_XMS5y8Uq-et1hw43ITltBIBfGVJ6WPnv6yIAFcOO2XcLc",
+				"width": 4160
+			}
+		],
+		"place_id": "ChIJA-qv_um1QYgRAhCxo0Jd_1o",
+		"plus_code": {
+			"compound_code": "4F6H+C3 Cincinnati, OH, USA",
+			"global_code": "86FQ4F6H+C3"
+		},
+		"rating": 4.7,
+		"reference": "ChIJA-qv_um1QYgRAhCxo0Jd_1o",
+		"reviews": [
+			{
+				"author_name": "Rick Villier",
+				"author_url": "https://www.google.com/maps/contrib/112585715769842203558/reviews",
+				"language": "en",
+				"profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucqBetWjTqlyVoCgtptKY0Jh_nstGXtcwxvDXuhlMA=s128-c0x00000000-cc-rp-mo-ba4",
+				"rating": 4,
+				"relative_time_description": "a month ago",
+				"text": "Beautiful stadium. It's not conducive to handicapped people with elevators out of the way.\n\nPlus all the good things are on the NORTH end of the facility. The South end is an afterthought. I realize The Bailey is the main attraction, but there are 23,000 fans IN SEATS that pay money too!\n\nAnd $40 to park at the school next door?!? That's probably not the stadium but damn! Thank God for residential parking for free.\n\nAll and all it was a great game and atmosphere for our first soccer game of any kind ever (outside of our kid playing a few games). Turns out it was the best game in franchise history. Guess we have to go back and give them good luck!",
+				"time": 1660009952
+			},
+			{
+				"author_name": "Mark Hoffman",
+				"author_url": "https://www.google.com/maps/contrib/104742019489771987471/reviews",
+				"language": "en",
+				"profile_photo_url": "https://lh3.googleusercontent.com/a/AItbvmntGvIlbE1T0cERnkVHT9BLO_GO-1AKSzYENkeH=s128-c0x00000000-cc-rp-mo-ba5",
+				"rating": 3,
+				"relative_time_description": "a week ago",
+				"text": "Good food assortment, good beer selection but very long lines. Men's bathrooms small, far apart and smelled of sewage. Leaving the match a nightmare, took 40 minutes just to get to I-71. Fans were throwing bottles and cans at the players of the opposing team after the match, little seemed to be done to stop them. Light show was good, but whoever played the National Anthem on bass guitar made it almost unrecognizable.",
+				"time": 1661777942
+			},
+			{
+				"author_name": "Brent T. Boden",
+				"author_url": "https://www.google.com/maps/contrib/117824582246555855923/reviews",
+				"language": "en",
+				"profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucp1JFVEoHPcC16UPOQqM22BpDYAuJJyvNyoboMlINo=s128-c0x00000000-cc-rp-mo-ba4",
+				"rating": 5,
+				"relative_time_description": "in the last week",
+				"text": "False alarm at TQL Stadium tonight on a called back goal, but fantastic soccer venue with great pitch views anywhere in the stadium.  Easy access to drinks, concessions and bathrooms. Still wish the beer selection and quicker access to amenities was easier. Not to mention a better on field product.",
+				"time": 1662290962
+			},
+			{
+				"author_name": "Sean Smyth",
+				"author_url": "https://www.google.com/maps/contrib/100802363169097522825/reviews",
+				"language": "en",
+				"profile_photo_url": "https://lh3.googleusercontent.com/a-/AFdZucpfhy_BMWcMk-nL99MQpYvJdnasUhcJVOVV-NsvXw=s128-c0x00000000-cc-rp-mo",
+				"rating": 5,
+				"relative_time_description": "in the last week",
+				"text": "Every seat is a good seat, fun atmosphere, downtown location adds to fun vibes. It's really an outstanding stadium. The one knock is that the architects and ownership grossly misjudged the number of toilets needed to comfortably handle everyone in the general (non-club) seating. That aside, it's a true gem of a stadium.",
+				"time": 1662214044
+			},
+			{
+				"author_name": "Tracey Harris",
+				"author_url": "https://www.google.com/maps/contrib/107817990553453065360/reviews",
+				"language": "en",
+				"profile_photo_url": "https://lh3.googleusercontent.com/a/AItbvmkP7xEUf-W1QDT6iHKhFVZgGdU7pqECZaUQ-HLW=s128-c0x00000000-cc-rp-mo",
+				"rating": 5,
+				"relative_time_description": "5 months ago",
+				"text": "One of the top soccer venues in the country, and as others have stated one the finest in the world.  The private suites located on level 2 and 3 are amazing.  Wonderful spaces for entertaining clients, good food, and comfortable inviting spaces.",
+				"time": 1648948098
+			}
+		],
+		"types": [
+			"stadium",
+			"point_of_interest",
+			"establishment"
+		],
+		"url": "https://maps.google.com/?cid=6557062123270246402",
+		"user_ratings_total": 1105,
+		"utc_offset": -240,
+		"vicinity": "1501 Central Parkway, Cincinnati",
+		"website": "https://tqlstadium.com/"
+	},
+	"status": "OK"
+}
