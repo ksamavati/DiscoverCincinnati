@@ -3,4 +3,4 @@ env_variables:
   REACT_APP_BACKEND_URL: "https://discovercinci.com"
   BACKEND_MAPS_API_KEY: "AIzaSyDMealU-8FaMAeLbEOZfkDubPFaPvlTOMg"
   REACT_APP_MAPS_API_KEY: "AIzaSyBl0D-F9VvuDEaxsaxDNBcyp7yvLs8FAkI"
-  MONGODB_URI: "mongodb+srv://user:1234@cluster0.fuypnaj.mongodb.net/database?retryWrites=true&w=majority"
+  MONGODB_URI: "mongodb+srv://user:1234@cluster0.fuypnaj.mongodb.net/database"
