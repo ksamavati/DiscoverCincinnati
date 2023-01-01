@@ -23,12 +23,20 @@ connection.once('open', () => {
 const locationsRouter = require('./routes/locations');
 app.use('/locationsdb', locationsRouter);
 
-app.use(express.static('./build'));
+const googlePlacesAPI = require('./routes/googlePlacesAPI');
+app.use('/googleplacesapi', googlePlacesAPI);
 
-app.use('/*',(req, res) => {
-	console.log("Redirecting request for " + req.baseUrl + " to homepage");
-	res.redirect("/");
-})
+app.use(express.static('./build'));
+// app.get('/*',(req,res) => {
+// 	res.render('index');
+// });
+
+// app.use('/',)
+
+// app.use('/*',(req, res) => {
+// 	console.log("Redirecting request for " + req.baseUrl + " to homepage");
+// 	res.redirect("/");
+// })
 
 app.listen(port, () => {
 	console.log(`Server is running on port: ${port}`);

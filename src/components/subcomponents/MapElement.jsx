@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -17,18 +17,20 @@ const center = {
 };
 
 function MapElement() {
+	let apiKey = (process.env.NODE_ENV === 'development') ? process.env.REACT_APP_DEV_MAPS_API_KEY : process.env.REACT_APP_LIVE_MAPS_API_KEY;
+
 	const { isLoaded } = useJsApiLoader({
 		id: 'google-map-script',
-		googleMapsApiKey: "AIzaSyCdU6rorFzmBl-NxqSRVJfVl7dy2nniTM8"
+		googleMapsApiKey: apiKey
 	})
 	const [locArr, setLocArr] = React.useState([])
 	const [selected, setSelected] = React.useState(null)
-	const [mapLoaded, setMapLoaded] = React.useState(false)
+	// const [mapLoaded, setMapLoaded] = React.useState(false)
 
 	// Runs once at page load
 	useEffect(() => {
 		if (process.env.NODE_ENV === 'development') {
-			axios.get('https://discovercincinnati.herokuapp.com/locationsdb/')
+			axios.get('https://www.discovercinci.com/locationsdb/')
 				.then(response => {
 					setLocArr(response.data);
 				})
@@ -47,31 +49,26 @@ function MapElement() {
 		}
 	}, []);
 
-	const onLoad = React.useCallback(function callback(map) {
-		setMapLoaded(true);
-	}, []);
+	// const onLoad = React.useCallback(function callback(map) {
+	// 	setMapLoaded(true);
+	// }, []);
 
-	const position = {
-		lat: 39.103119,
-		lng: -84.512016
-	};
-
-	const getPinColor = (cat) => {
-		switch (cat) {
-			case "bars":
-				return ({
-					backgroundColor: "#0000ff",
-					fillColor: "#0000ff",
-					strokeColor: "0000ff"
-				})
-			case "breweries":
-				return ({
-					backgroundColor: "#0000ff",
-					fillColor: "#0000ff",
-					strokeColor: "0000ff"
-				})
-		}
-	}
+	// const getPinColor = (cat) => {
+	// 	switch (cat) {
+	// 		case "bars":
+	// 			return ({
+	// 				backgroundColor: "#0000ff",
+	// 				fillColor: "#0000ff",
+	// 				strokeColor: "0000ff"
+	// 			})
+	// 		case "breweries":
+	// 			return ({
+	// 				backgroundColor: "#0000ff",
+	// 				fillColor: "#0000ff",
+	// 				strokeColor: "0000ff"
+	// 			})
+	// 	}
+	// }
 
 	const getPinIcon = (cat) => {
 		switch (cat) {
@@ -118,10 +115,6 @@ function MapElement() {
 				}}
 			/>)
 		})
-
-		// console.log(locArr.map((loc) => {
-		// 	return (<Marker	position={{lat: loc.location.lat, lng: loc.location.lat}} />)
-		// }))
 	}
 
 	let myStyles = [
@@ -144,7 +137,7 @@ function MapElement() {
 			mapContainerStyle={containerStyle}
 			center={center}
 			zoom={15}
-			onLoad={onLoad}
+			// onLoad={onLoad}
 			clickableIcons={false}
 			options={{ styles: myStyles }}
 			onClick={onCloseClick}

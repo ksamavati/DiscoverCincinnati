@@ -64,18 +64,10 @@
 	 */
 
 	$(".nav-link").on('click', (e) => {
-		console.log("nav-link click executed");
 		select("#navbar").classList.remove('navbar-mobile');
 		select('#hamburger').classList.add('bi-list');
 		select('#hamburger').classList.remove('bi-x');
 	});
-
-	// on('click', '.nav-link', function(e) {
-	// 	console.log("nav-link click executed");
-	//   classList.toggle('navbar-mobile')
-	//   select('#hamburger').classList.add('bi-list')
-	//   select('#hamburger').classList.remove('bi-x')
-	// })
 
 	/**
 	 * Preloader

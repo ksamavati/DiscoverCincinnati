@@ -19,9 +19,10 @@ const Locations = (props) => {
 	// Runs once when compponent renders, and again when you toggle category
 	useEffect(() => {
 		// if running on Heroku, do a backend call
-		if (process.env.NODE_ENV === 'development') {
+		let path = (process.env.NODE_ENV === 'development') ? 'https://www.discovercinci.com/locationsdb/' : '/locationsdb/';
+
 			if (cat === "" || cat === undefined) {
-				axios.get('https://discovercincinnati.herokuapp.com/locationsdb/')
+				axios.get(path)
 					.then(response => {
 						setLocArr(response.data);
 					})
@@ -29,8 +30,7 @@ const Locations = (props) => {
 						console.log(error);
 					});
 			} else {
-				// setLocArr(localdb.filter((location)=>{return location.category == cat}));
-				axios.get('https://discovercincinnati.herokuapp.com/locationsdb/' + cat)
+				axios.get(path + cat)
 					.then(response => {
 						setLocArr(response.data);
 					})
@@ -38,26 +38,6 @@ const Locations = (props) => {
 						console.log(error);
 					});
 			};
-		} else {
-			// If no category, load all locations
-			if (cat === "" || cat === undefined) {
-				axios.get('/locationsdb/')
-					.then(response => {
-						setLocArr(response.data);
-					})
-					.catch((error) => {
-						console.log(error);
-					});
-			} else {
-				axios.get('/locationsdb/' + cat)
-					.then(response => {
-						setLocArr(response.data);
-					})
-					.catch((error) => {
-						console.log(error);
-					});
-			}
-		}
 
 		window.scrollTo(0, 0)
 	}, [cat]);
