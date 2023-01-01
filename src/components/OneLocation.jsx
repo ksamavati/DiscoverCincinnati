@@ -11,21 +11,18 @@ const OneLocation = () => {
   const navigate = useNavigate();
   const { loc } = location.state;
   const httpRegex = /http(s)?(:)?(\/\/)?|(\/\/)?(www\.)?/g;
-  let backendURL =
+  const backendURL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:5000/googleplacesapi/"
       : "https://www.discovercinci.com/googleplacesapi/";
-  let mapsApiKey =
+  const mapsApiKey =
     process.env.NODE_ENV === "development"
       ? process.env.REACT_APP_DEV_MAPS_API_KEY
       : process.env.REACT_APP_LIVE_MAPS_API_KEY;
 
-  //get data from Google Maps API
-  const getData = async () => {
-    if (process.env.NODE_ENV === "development") {
-    } else {
-      //if running on live server
-    }
+  // Runs once when compponent renders, equivalent to ComponentDidMount
+  // This will call Google Maps API
+  useEffect(() => {
     //get Place ID
     var config1 = {
       method: "get",
@@ -35,7 +32,7 @@ const OneLocation = () => {
       },
     };
 
-    await axios(config1)
+    axios(config1)
       .then(function (response) {
         let theData = response.data;
         setMapsData(theData.result);
@@ -43,13 +40,7 @@ const OneLocation = () => {
       .catch(function (error) {
         console.log(error);
       });
-  };
-
-  // Runs once when compponent renders, equivalent to ComponentDidMount
-  // This will call Google Maps API
-  useEffect(() => {
-    getData();
-  }, [loc]);
+  }, [loc, backendURL]);
 
   const getHours = (hours) => {
     if (typeof hours === "object") {
@@ -66,17 +57,19 @@ const OneLocation = () => {
     }
   };
 
-  const getStars = (score) => {
+  const getStars = (score, index) => {
     let output = [];
     for (let i = 1; i <= 5; i++) {
       if (score > 0.75) {
-        output.push(<i className="fa-solid fa-star"></i>);
+        output.push(<i className="fa-solid fa-star" key={index}></i>);
         score--;
       } else if (score > 0.25) {
-        output.push(<i className="fa-regular fa-star-half-stroke"></i>);
+        output.push(
+          <i className="fa-regular fa-star-half-stroke" key={index}></i>
+        );
         score--;
       } else {
-        output.push(<i className="fa-regular fa-star"></i>);
+        output.push(<i className="fa-regular fa-star" key={index}></i>);
       }
     }
     return output;
@@ -97,9 +90,9 @@ const OneLocation = () => {
         </div>
 
         <Carousel>
-          {mapsData.photos.map((photo) => {
+          {mapsData.photos.map((photo, index) => {
             return (
-              <Carousel.Item interval={4000}>
+              <Carousel.Item interval={4000} key={index}>
                 <img
                   className="d-block my-car-img"
                   src={
@@ -143,12 +136,11 @@ const OneLocation = () => {
                         >
                           <i className="bi bi-arrow-up-short"></i>
                         </div>
-                        <h4 className="loc-title"></h4>
-                        <p className="description">
+                        <p className="description pt-2">
                           {loc.address1}
-                          <br></br>
+                          <br />
                           {loc.address2}
-                          <br></br>
+                          <br />
                           <a href={mapsData.url}>View on Google Maps</a>
                         </p>
                       </div>
@@ -172,7 +164,7 @@ const OneLocation = () => {
                         </h6>
                         <p className="description">
                           <i className="fa-solid fa-phone"></i> {loc.phone}
-                          <br></br>
+                          <br />
                           <i className="fa-solid fa-globe"></i>{" "}
                           {mapsData.website ? (
                             <a href={mapsData.website}>
@@ -181,7 +173,7 @@ const OneLocation = () => {
                           ) : (
                             "Website unavailable"
                           )}
-                          <br></br>
+                          <br />
                         </p>
                       </div>
                     </div>

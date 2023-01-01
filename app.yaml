@@ -1,10 +1,5 @@
 runtime: nodejs16
-handlers:
-  # Serve all static files with url ending with a file extension
-  - url: /(.*\..+)$
-    static_files: build/\1
-    upload: build/(.*\..+)$
-  # Catch all handler to index.html
-  - url: /.*
-    static_files: build/index.html
-    upload: build/index.html
+env_variables:
+  REACT_APP_BACKEND_URL: "https://discovercinci.com"
+  BACKEND_MAPS_API_KEY: "AIzaSyDMealU-8FaMAeLbEOZfkDubPFaPvlTOMg"
+  REACT_APP_MAPS_API_KEY: "AIzaSyBl0D-F9VvuDEaxsaxDNBcyp7yvLs8FAkI"

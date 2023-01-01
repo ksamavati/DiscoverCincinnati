@@ -17,39 +17,40 @@ function App() {
   const location = useLocation();
 
   // Import google maps JS
-  // useEffect(() => {
-  // 	let mapsApiKey = (process.env.NODE_ENV === 'development') ? process.env.REACT_APP_DEV_MAPS_API_KEY : process.env.REACT_APP_LIVE_MAPS_API_KEY;
+  useEffect(() => {
+    // Import SkyScanner Widget JS
+    const script = document.createElement("script");
+    script.src = "https://widgets.skyscanner.net/widget-server/js/loader.js";
+    script.async = true;
+    document.body.appendChild(script);
 
-  // 	const script = document.createElement("script");
+    // // Import SkyScanner Widget JS
+    // const script2 = document.createElement("script");
+    // script2.src = "assets/vendor/purecounter/purecounter_vanilla.js";
+    // script2.async = true;
+    // document.body.appendChild(script2);
 
-  // 	script.src = "https://maps.googleapis.com/maps/api/js?key=" + mapsApiKey +  "&libraries=places";
-  // 	script.async = true;
-
-  // 	document.body.appendChild(script);
-  // }, []);
+    // // Import SkyScanner Widget JS
+    // const script3 = document.createElement("script");
+    // script3.src = "/scripts/homepage/main.js";
+    // script3.async = true;
+    // document.body.appendChild(script3);
+  }, []);
 
   useEffect(() => {
     if (location.pathname === "/map") {
-      // if (renderFooter === true) {
       setRenderFooter(false);
-      // }
     } else {
-      // if (renderFooter === false) {
       setRenderFooter(true);
-      // }
     }
     if (
       location.pathname === "/map" ||
       location.pathname === "/contact" ||
       location.pathname === "/team"
     ) {
-      // if (renderFooter === true) {
       setRenderTopLink(false);
-      // }
     } else {
-      // if (renderFooter === false) {
       setRenderTopLink(true);
-      // }
     }
   }, [location.pathname]);
 
