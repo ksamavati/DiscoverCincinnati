@@ -6,6 +6,12 @@ const app = express();
 // Allow using environment variables
 require("dotenv").config();
 
+console.log("All Environment variables:");
+console.log("NODE_ENV:" + process.env.NODE_ENV);
+console.log("REACT_APP_BACKEND_URL:" + process.env.REACT_APP_BACKEND_URL);
+console.log("BACKEND_MAPS_API_KEY:" + process.env.BACKEND_MAPS_API_KEY);
+console.log("REACT_APP_MAPS_API_KEY:" + process.env.REACT_APP_MAPS_API_KEY);
+
 const port = process.env.PORT || 5000;
 
 app.use(cors());

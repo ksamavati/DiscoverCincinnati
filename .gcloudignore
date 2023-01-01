@@ -27,8 +27,7 @@
 
 # Environment
 
-# .env
-
+.env
 .env.example
 
 # Node.js dependencies:
