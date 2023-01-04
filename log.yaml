@@ -1,0 +1,45 @@
+{
+  "data":
+    {
+      "candidates": [],
+      "error_message": "This IP, site or mobile application is not authorized to use this API key. Request received from IP address 107.178.229.210, with empty referer",
+      "status": "REQUEST_DENIED",
+    },
+  "status": 200,
+  "statusText": "",
+  "headers":
+    {
+      "access-control-allow-origin": "*",
+      "cache-control": "private",
+      "content-encoding": "gzip",
+      "content-length": "198",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Mon, 02 Jan 2023 01:47:57 GMT",
+      "etag": 'W/"cd-lcZGXR7POwf7PRn6D7feC81pWAE"',
+      "server": "Google Frontend",
+      "vary": "Accept-Encoding",
+      "x-cloud-trace-context": "26ff41f078c724e6a391ee53d102c8bd",
+      "x-powered-by": "Express",
+    },
+  "config":
+    {
+      "transitional":
+        {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false,
+        },
+      "transformRequest": [null],
+      "transformResponse": [null],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": { "FormData": null },
+      "headers": { "Accept": "application/json" },
+      "method": "get",
+      "url": "https://discovercinci.com/googleplacesapi/Wiseguy Lounge",
+    },
+  "request": {},
+}

@@ -4,6 +4,21 @@ const apiKey = process.env.BACKEND_MAPS_API_KEY;
 
 //get data from Google Maps API
 const getData = async (locName) => {
+  // const config = {
+  // headers: {
+  //   Referer: "https://www.discovercinci.com/",
+  //   "Referrer-Policy": "unsafe-url",
+  // },
+  // };
+
+  // console.log(
+  //   await axios.get(
+  //     "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=" +
+  //       locName +
+  //       "&inputtype=textquery&locationbias=point:39.1031,84.5120&key=" +
+  //       apiKey
+  //   )
+  // );
   const placeID = (
     await axios.get(
       "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=" +
@@ -12,6 +27,7 @@ const getData = async (locName) => {
         apiKey
     )
   ).data.candidates[0].place_id;
+  // return placeID;
   const result = await axios.get(
     "https://maps.googleapis.com/maps/api/place/details/json?place_id=" +
       placeID +
