@@ -36,8 +36,8 @@
     "dev": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "set REACT_APP_BACKEND_URL=https://discovercinci.com&& set REACT_APP_MAPS_API_KEY=AIzaSyBl0D-F9VvuDEaxsaxDNBcyp7yvLs8FAkI&& react-scripts build && gcloud app deploy --quiet",
-    "quick-deploy": "set REACT_APP_BACKEND_URL=https://discovercinci.com&& set REACT_APP_MAPS_API_KEY=AIzaSyBl0D-F9VvuDEaxsaxDNBcyp7yvLs8FAkI&& gcloud app deploy --quiet"
+    "deploy": "set REACT_APP_BACKEND_URL=https://discovercinci.com&& react-scripts build && gcloud app deploy --quiet",
+    "quick-deploy": "set REACT_APP_BACKEND_URL=https://discovercinci.com&& gcloud app deploy --quiet"
   },
   "eslintConfig": {
     "extends": [

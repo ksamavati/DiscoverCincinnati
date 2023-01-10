@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import NavbarSpacer from "./components/NavbarSpacer";
 import Home from "./components/Home";
 import Footer from "./components/subcomponents/Footer";
 import Locations from "./components/Locations";
@@ -16,26 +17,8 @@ function App() {
   const [renderTopLink, setRenderTopLink] = useState(true);
   const location = useLocation();
 
-  // Import google maps JS
-  useEffect(() => {
-    // Import SkyScanner Widget JS
-    const script = document.createElement("script");
-    script.src = "https://widgets.skyscanner.net/widget-server/js/loader.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    // // Import SkyScanner Widget JS
-    // const script2 = document.createElement("script");
-    // script2.src = "assets/vendor/purecounter/purecounter_vanilla.js";
-    // script2.async = true;
-    // document.body.appendChild(script2);
-
-    // // Import SkyScanner Widget JS
-    // const script3 = document.createElement("script");
-    // script3.src = "/scripts/homepage/main.js";
-    // script3.async = true;
-    // document.body.appendChild(script3);
-  }, []);
+  // useEffect(() => {
+  // }, []);
 
   useEffect(() => {
     if (location.pathname === "/map") {
@@ -43,11 +26,7 @@ function App() {
     } else {
       setRenderFooter(true);
     }
-    if (
-      location.pathname === "/map" ||
-      location.pathname === "/contact" ||
-      location.pathname === "/team"
-    ) {
+    if (location.pathname === "/map" || location.pathname === "/contact" || location.pathname === "/team") {
       setRenderTopLink(false);
     } else {
       setRenderTopLink(true);
@@ -57,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="nav-offset" />
+      <NavbarSpacer />
       <main>
         <Routes>
           <Route exact path="/" element={<Home />} />

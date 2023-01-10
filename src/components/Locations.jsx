@@ -17,12 +17,6 @@ const Locations = (props) => {
 
   // Runs once when compponent renders, and again when you toggle category
   useEffect(() => {
-    console.log("All Environment variables:");
-    console.log("NODE_ENV:" + process.env.NODE_ENV);
-    console.log("REACT_APP_BACKEND_URL:" + process.env.REACT_APP_BACKEND_URL);
-    console.log("BACKEND_MAPS_API_KEY:" + process.env.BACKEND_MAPS_API_KEY);
-    console.log("REACT_APP_MAPS_API_KEY:" + process.env.REACT_APP_MAPS_API_KEY);
-
     let path = process.env.REACT_APP_BACKEND_URL + "/locationsdb/";
 
     if (cat === "" || cat === undefined) {
@@ -60,20 +54,12 @@ const Locations = (props) => {
       .map((location, index) => {
         return (
           <Carousel.Item interval={4000} key={"carousel-item" + index}>
-            <img
-              className="d-block w-100 my-car-img"
-              src={location.image}
-              alt="First slide"
-            />
+            <img className="d-block w-100 my-car-img" src={location.image} alt="First slide" />
             <Carousel.Caption>
               <h3>{location.name}</h3>
               <p className="my-car-caption">{location.description}</p>
               <p>
-                <Link
-                  className="btn btn-primary"
-                  to={"/destination-" + location.id}
-                  state={{ loc: location }}
-                >
+                <Link className="btn btn-primary" to={"/destination-" + location.id} state={{ loc: location }}>
                   Learn More &raquo;
                 </Link>
               </p>
@@ -89,13 +75,7 @@ const Locations = (props) => {
     return (
       <div style={{ backgroundColor: "#ddd" }}>
         <Carousel>{getCarouselItems(locArr)}</Carousel>
-        <motion.div
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
-          exit={{ opacity: 0 }}
-          layout
-          className="para-cols py-5"
-        >
+        <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} layout className="para-cols py-5">
           <LocationRenderer locationsArray={locArr} />
         </motion.div>
       </div>

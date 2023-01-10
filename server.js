@@ -2,15 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const app = express();
-
-// Allow using environment variables
-require("dotenv").config();
-
-console.log("All Environment variables:");
-console.log("NODE_ENV:" + process.env.NODE_ENV);
-console.log("REACT_APP_BACKEND_URL:" + process.env.REACT_APP_BACKEND_URL);
-console.log("BACKEND_MAPS_API_KEY:" + process.env.BACKEND_MAPS_API_KEY);
-console.log("REACT_APP_MAPS_API_KEY:" + process.env.REACT_APP_MAPS_API_KEY);
+require("dotenv").config(); // import process.env
 
 const port = process.env.PORT || 5000;
 
@@ -32,16 +24,27 @@ const googlePlacesAPI = require("./routes/googlePlacesAPI");
 app.use("/googleplacesapi", googlePlacesAPI);
 
 app.use(express.static("./build"));
-// app.get('/*',(req,res) => {
-// 	res.render('index');
-// });
 
-// app.use('/',)
+// Handle 404
+app.get("*", function (req, res) {
+  // Redirect html requests to homepage
+  if (req.accepts("html")) {
+    console.log("Redirecting request for '" + req.originalUrl + "' to homepage");
+    app.get("/mysub-application1/*", (req, res) => {
+      //this is required to support any client side routing written in react.
+      res.sendFile(path.join(__dirname, "./public", "index.html"));
+    });
+  }
 
-// app.use('/*',(req, res) => {
-// 	console.log("Redirecting request for " + req.baseUrl + " to homepage");
-// 	res.redirect("/");
-// })
+  // Respond to JSON requests with error
+  if (req.accepts("json")) {
+    res.json({ error: "Not found" });
+    return;
+  }
+
+  // Respond to text requests with 'not found'
+  res.type("txt").send("Not found");
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);

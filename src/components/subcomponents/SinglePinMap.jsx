@@ -1,10 +1,12 @@
 import React from "react";
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
-<script
+{
+  /* <script
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX5fX8976AtyGXi5iANifb78vSwHRarX0&libraries=places"
   defer
-></script>;
+></script>; */
+}
 
 const SinglePinMap = (props) => {
   let apiKey = process.env.REACT_APP_MAPS_API_KEY;

@@ -1,38 +1,70 @@
-/* .dclogo {
-	font-family: 'Catamaran';
-	font-weight: 300 !important;
-	letter-spacing: 0.05em;
+#header {
+  /* background: #fff; */
+  transition: all 0.5s;
+  z-index: 997;
+  /* padding: 7px 0; */
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+  -webkit-transform: translateZ(150px);
+  transform: translateZ(150px);
 }
 
-.dclogo b {
-	font-weight: 900 !important;
-} */
+.extend-to-bottom {
+  bottom: 0;
+}
+
+.logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  -webkit-transform: translate3d(0, 0, 200px);
+  transform: translate3d(0, 0, 200px);
+}
+
+#header .logo a {
+  color: #5fcf80;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
 
 .navbar {
-	/* min-height: 50px; */
-	font-size: 13pt;
+  /* min-height: 50px; */
+  font-size: 13pt;
 }
 
 .navbar-brand {
-	font-size: 30px !important;
-	padding: 0;
+  font-size: 30px !important;
+  padding: 0;
 }
 
 @media (max-width: 480px) {
-	.navbar-brand {
-		font-size: 5vw !important;
-		padding: 0;
-	}
+  .navbar-brand {
+    font-size: 5vw !important;
+    padding: 0;
+  }
 }
 
 .subnav-box {
-	position: absolute;
-	left: 0;
-	top: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .my-navbar {
-	position: absolute;
-	left: 0;
-	top: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.nav-item {
+  padding-left: 25px;
+}
+
+.nav-spacer {
 }
