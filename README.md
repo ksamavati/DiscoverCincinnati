@@ -1,12 +1,18 @@
 # Discover Cincinnati
 
-For the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node API and a database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
+As the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node API and a database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
 
-Features an interactive Map page that integrates react-google-maps which parses locations from our database and drops pins on the map at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
+The site achieves a perfect 100 SEO (Search Engine Optimization) score in Google Lighthouse, with a 95 in accessibility and a 94 in best practices.
 
-Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for our backend.
+The site is fully mobile-resposive and every page is optimized for every common screen size and resolution.
+
+Features an interactive Map page that integrates react-google-maps which parses locations from my backend database and drops pins on the map at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
+
+Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for my backend.
 
 Video content edited in Adobe Premiere Pro 2022. Image content edited in Adobe Photoshop 2022.
+
+Assets sourced from:
 
 Assets sourced from:
 
