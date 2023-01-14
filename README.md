@@ -4,17 +4,25 @@ http://discovercinci.com
 
 As the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node API and a database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
 
-Features an interactive Map page that integrates react-google-maps which parses locations from our database and drops pins at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
+Features an interactive Map page that integrates react-google-maps which parses locations from our database and drops pins on the map at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
 
 Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for our backend.
 
-Video content edited in Adobe Premiere Pro 2022, image content in Adobe Photoshop 2022.
+Video content edited in Adobe Premiere Pro 2022. Image content edited in Adobe Photoshop 2022.
 
 Assets sourced from:
 
 - BoxIcons
 - RemixIcon
 - BootstrapMade
+
+Live project is hosted on Google Cloud at:
+
+http://discovercinci.com
+
+Project source files are hosted publicly on Github at:
+
+https://github.com/ksamavati/DiscoverCincinnati
 
 ## Getting Started
 
