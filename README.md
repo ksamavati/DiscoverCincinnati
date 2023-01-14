@@ -1,34 +1,37 @@
 # Discover Cincinnati
 
-This website was designed and built as the final capstone project of a team of 3 students graduating from Kable Academy's summer web development bootcamp program.
+http://discovercinci.com
+
+As the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node API and a database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
+
+Features an interactive Map page that integrates react-google-maps which parses locations from our database and drops pins at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
+
+Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for our backend.
+
+Video content edited in Adobe Premiere Pro 2022, image content in Adobe Photoshop 2022.
+
+Assets sourced from:
+
+- BoxIcons
+- RemixIcon
+- BootstrapMade
 
 ## Getting Started
 
-Before you can run any scripts, you will first need Node Package Manager installed, then you will need to run `npm i` in the project root directory to install necessary dependencies.
+- Create a database on MongoDB
+- Create a Google Maps API key
+- Make sure Node Package Manager is installed
+- Create a file called `.env` in the root directory and copy `.env.example` contents into it, and populate your API key(s) and MongoDB URI.
+- Run `npm i` in the project root directory to install dependencies.
 
-## Available Scripts
+## Run development build
 
-Once the above is complete, in the project directory, you can run:
+- Start backend with `npm start`, leave this terminal running.
+- Open a new terminal tab/window and start frontend with `npm run dev`.
+- App should now be hosted at http://localhost:3000/
 
-### `npm run dev`
+## Run production build
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See Meta's section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See Meta's section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Generate production build with `npm run build`
+- Start backend with `npm start`
+- App should now be hosted at http://localhost:5000/

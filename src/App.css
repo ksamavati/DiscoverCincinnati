@@ -1,8 +1,33 @@
 /* This is the main CSS file for the app */
+html,
 body {
 	background: #fff;
+	height: 100%;
+	/* overflow-x: hidden; */
 }
 
-.nav-offset {
-	height: 66px;
+main {
+	position: relative;
+}
+
+.app-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-height: 100%;
+	width: 100%;
+}
+
+.app-flex > * {
+	flex-shrink: 0;
+}
+
+.fill-parent {
+	height: 100%;
+	width: 100%;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
 }

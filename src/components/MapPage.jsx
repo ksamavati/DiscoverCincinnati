@@ -1,12 +1,12 @@
-import React from 'react';
-import MapElement from './subcomponents/MapElement';
+import React from "react";
+import MapElement from "./subcomponents/MapElement";
 
 const MapPage = () => {
 	return (
-		<div>
+		<main style={{ flexGrow: "1", flexShrink: "0" }}>
 			<MapElement />
-		</div>
-	)
-}
+		</main>
+	);
+};
 
 export default MapPage;

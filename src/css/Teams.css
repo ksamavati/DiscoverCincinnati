@@ -29,24 +29,6 @@
 	box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
 }
 
-.card-loc {
-	position: relative;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #fff;
-	background-clip: border-box;
-	border: 1px solid rgba(0, 0, 0, 0.125);
-	border-radius: .25rem;
-	-webkit-line-clamp: 15;
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-box-orient: vertical;
-}
-
 .member-profile {
 	top: -50px;
 	left: 0;
@@ -82,18 +64,16 @@
 	box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
 }
 
-
 /* media query */
 
-
 @media (min-width: 768px) {
-	.hash-list.cols-3>li:nth-last-child(-n+3) {
+	.hash-list.cols-3 > li:nth-last-child(-n + 3) {
 		border-bottom: none;
 	}
 }
 
 @media (min-width: 768px) {
-	.hash-list.cols-3>li {
+	.hash-list.cols-3 > li {
 		width: 33.3333%;
 	}
 }
