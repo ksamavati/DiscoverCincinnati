@@ -14,8 +14,6 @@ Video content edited in Adobe Premiere Pro 2022. Image content edited in Adobe P
 
 Assets sourced from:
 
-Assets sourced from:
-
 - BoxIcons
 - RemixIcon
 - BootstrapMade
