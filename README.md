@@ -30,7 +30,7 @@ https://github.com/ksamavati/DiscoverCincinnati
 
 - Create a database on MongoDB
 - Create a Google Maps API key
-- Make sure [Node Package Manager](https://nodejs.org/en/download) is installed
+- Make sure [Node.js/NPM](https://nodejs.org/en/download) is installed
 - Create a file called `.env` in the root directory and copy `.env.example` contents into it, and populate your API key(s) and MongoDB URI.
 - Run `npm i` in the project root directory to install dependencies.
 
