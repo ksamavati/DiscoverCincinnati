@@ -1,6 +1,6 @@
 # Discover Cincinnati
 
-As the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node API and a database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
+As the final capstone project at Kable Academy, I was tasked with creating a tourism website in React for the city of Cincinnati with a Node.js API backend and a MongoDB NoSQL database. The frontend client is built on modern React 18.2 in Babel JavaScript using only functional components with hooks and local React state management, and routing is handled with react-router-dom.
 
 The site achieves a perfect 100 SEO (Search Engine Optimization) score in Google Lighthouse, with a 95 in accessibility and a 94 in best practices.
 
