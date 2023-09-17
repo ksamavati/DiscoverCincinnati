@@ -22,7 +22,7 @@ Live project is hosted on Google Cloud at:
 
 http://discovercinci.com
 
-Project source files are hosted publicly on Github at:
+Project is open-source at:
 
 https://github.com/ksamavati/DiscoverCincinnati
 
