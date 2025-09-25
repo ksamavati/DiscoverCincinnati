@@ -6,9 +6,9 @@ The site achieves a perfect 100 SEO score in Google Lighthouse, with a 95 in acc
 
 The site is fully mobile-resposive and every page is optimized for every common screen size and resolution.
 
-Features an interactive Map page that integrates react-google-maps which parses locations from my backend database and drops pins on the map at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
+Features an interactive Map page that integrates react-google-maps which parses locations from the backend database and drops pins on the map at their coordinates that link to their associated pages in the app. Locations pages are generated dynamically using data from our backend API, and real-time reviews and up-to-date business data are populated from calls to the Google Places API.
 
-Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for my backend.
+Used OpenAI's DaVinci model to generate original business descriptions and other page content, as well as parse data into JSON format for the backend.
 
 Video content edited in Adobe Premiere Pro 2022. Image content edited in Adobe Photoshop 2022.
 
