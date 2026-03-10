@@ -34,13 +34,13 @@ https://github.com/ksamavati/DiscoverCincinnati
 - Create a file called `.env` in the root directory and copy `.env.example` contents into it, and populate your API key(s) and MongoDB URI.
 - Run `npm i` in the project root directory to install dependencies.
 
-## Run development build
+## Run in development
 
 - Start backend with `npm start`, leave this terminal running.
 - Open a new terminal tab/window and start frontend with `npm run dev`.
 - App should now be hosted at http://localhost:3000/
 
-## Run production build
+## Build the project
 
 - Generate production build with `npm run build`
 - Start backend with `npm start`
